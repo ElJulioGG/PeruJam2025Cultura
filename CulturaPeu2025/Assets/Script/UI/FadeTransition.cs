@@ -34,5 +34,5 @@ public class FadeTransition : MonoBehaviour
             image.SetActive(false); 
         });
     }
-
+ 
 }
