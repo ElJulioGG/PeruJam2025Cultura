@@ -78,11 +78,18 @@ public class MenuController : MonoBehaviour
     [Header("Otros")]
     public Transform Piso;
     public AudioSource soundeffect;
+    public ParticleSystem particles_1;
+    public ParticleSystem particles_2;
+    public ParticleSystem particles_3;
+    public ParticleSystem particles_4;
+    public ParticleSystem particles_5;
+    public ParticleSystem particles_6;
 
     void Start()
     {
         StartCoroutine(MoveObjectsStart());
         soundeffect = GetComponent<AudioSource>();
+
     }
 
     private void Update()
@@ -168,6 +175,15 @@ public void StartReturnObjects()
 
             Tween t5 = creditosTeamBloque1.DOMoveY(creditosTeamBloque1.position.y - moveDistancecreditosTeam1, moveDurationCreditos).SetEase(Ease.OutExpo);
             Tween t6 = creditosTeamBloque2.DOMoveY(creditosTeamBloque2.position.y - moveDistancecreditosTeam2, moveDurationCreditos).SetEase(Ease.OutExpo);
+
+            particles_1.Play();
+            particles_2.Play();
+            particles_3.Play();
+            particles_4.Play();
+            particles_5.Play();
+            particles_6.Play();
+
+
             soundeffect.Play();
 
             Tween t7 = CTitulo.DOMoveY(CTitulo.position.y - CreditsDistance, moveDurationCreditos).SetEase(Ease.OutExpo);
@@ -384,6 +400,13 @@ public void StartReturnObjects()
             yield return t22.WaitForCompletion();
             yield return new WaitForSeconds(delayBetweenMoves);
             soundeffect.Play();
+
+            particles_1.Stop();
+            particles_2.Stop();
+            particles_3.Stop();
+            particles_4.Stop();
+            particles_5.Stop();
+            particles_6.Stop();
 
             Tween t23 = CreditoInstruccions.transform.DOMoveY(CreditoInstruccions.transform.position.y + CreditsDistanceInstruccions, moveDurationCreditos).SetEase(Ease.OutExpo);
             yield return t23.WaitForCompletion();
