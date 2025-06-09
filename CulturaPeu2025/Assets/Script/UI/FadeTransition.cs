@@ -31,7 +31,7 @@ public class FadeTransition : MonoBehaviour
         image.SetActive(true);
         uiImage.DOFade(1f, fadeDuration).OnComplete(() =>
         {
-            image.SetActive(false); 
+            image.SetActive(true); 
         });
     }
  

@@ -1,0 +1,4303 @@
+fileFormatVersion: 2
+guid: 338a421fba4f12241b03f370b368a785
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 456312404214324514
+    second: Tileset_Castle_2_0
+  - first:
+      213: 8613326877261782077
+    second: Tileset_Castle_2_1
+  - first:
+      213: -5852980112617964188
+    second: Tileset_Castle_2_2
+  - first:
+      213: 829493780050702864
+    second: Tileset_Castle_2_3
+  - first:
+      213: 3743151010676569686
+    second: Tileset_Castle_2_4
+  - first:
+      213: 7357964402229296494
+    second: Tileset_Castle_2_5
+  - first:
+      213: -783872867460041134
+    second: Tileset_Castle_2_6
+  - first:
+      213: -1999776432661378113
+    second: Tileset_Castle_2_7
+  - first:
+      213: -1545313888170575604
+    second: Tileset_Castle_2_8
+  - first:
+      213: 6642474806657635777
+    second: Tileset_Castle_2_9
+  - first:
+      213: 4561765374746856529
+    second: Tileset_Castle_2_10
+  - first:
+      213: -3967468089436401011
+    second: Tileset_Castle_2_11
+  - first:
+      213: -7786949655324300872
+    second: Tileset_Castle_2_12
+  - first:
+      213: -1667743107317454957
+    second: Tileset_Castle_2_13
+  - first:
+      213: -6779108888387395213
+    second: Tileset_Castle_2_14
+  - first:
+      213: -7202889630300703951
+    second: Tileset_Castle_2_15
+  - first:
+      213: -6653824866839256523
+    second: Tileset_Castle_2_16
+  - first:
+      213: 9050361287586986189
+    second: Tileset_Castle_2_17
+  - first:
+      213: -5423860033039703462
+    second: Tileset_Castle_2_18
+  - first:
+      213: -9100988118426254273
+    second: Tileset_Castle_2_19
+  - first:
+      213: -445751161705590999
+    second: Tileset_Castle_2_20
+  - first:
+      213: -8306433150389244336
+    second: Tileset_Castle_2_21
+  - first:
+      213: -2009569117974704725
+    second: Tileset_Castle_2_22
+  - first:
+      213: -3850945351375425999
+    second: Tileset_Castle_2_23
+  - first:
+      213: 2184355057136919432
+    second: Tileset_Castle_2_24
+  - first:
+      213: 8665569204364980936
+    second: Tileset_Castle_2_25
+  - first:
+      213: 2224019880928924238
+    second: Tileset_Castle_2_26
+  - first:
+      213: 7022493060393844088
+    second: Tileset_Castle_2_27
+  - first:
+      213: -4472406861270204273
+    second: Tileset_Castle_2_28
+  - first:
+      213: 5046266998525486469
+    second: Tileset_Castle_2_29
+  - first:
+      213: -4340255061055372622
+    second: Tileset_Castle_2_30
+  - first:
+      213: 7053060247569400960
+    second: Tileset_Castle_2_31
+  - first:
+      213: -2548130347181397621
+    second: Tileset_Castle_2_32
+  - first:
+      213: 7491057438292688836
+    second: Tileset_Castle_2_33
+  - first:
+      213: -7405037373046092285
+    second: Tileset_Castle_2_34
+  - first:
+      213: -9117976898065698137
+    second: Tileset_Castle_2_35
+  - first:
+      213: 3154898484557377760
+    second: Tileset_Castle_2_36
+  - first:
+      213: -1724456384623799170
+    second: Tileset_Castle_2_37
+  - first:
+      213: -7099679724299595815
+    second: Tileset_Castle_2_38
+  - first:
+      213: -6101775403363693587
+    second: Tileset_Castle_2_39
+  - first:
+      213: -5462908745074310420
+    second: Tileset_Castle_2_40
+  - first:
+      213: -6214979952519875670
+    second: Tileset_Castle_2_41
+  - first:
+      213: 3468456554340172183
+    second: Tileset_Castle_2_42
+  - first:
+      213: -8824725608234836136
+    second: Tileset_Castle_2_43
+  - first:
+      213: -2618533079633732423
+    second: Tileset_Castle_2_44
+  - first:
+      213: 3804186468642839423
+    second: Tileset_Castle_2_45
+  - first:
+      213: 6861542027962170207
+    second: Tileset_Castle_2_46
+  - first:
+      213: -2737782160568933364
+    second: Tileset_Castle_2_47
+  - first:
+      213: 7519916407863569040
+    second: Tileset_Castle_2_48
+  - first:
+      213: 2986999614156292923
+    second: Tileset_Castle_2_49
+  - first:
+      213: 603710652422161816
+    second: Tileset_Castle_2_50
+  - first:
+      213: 358922617618571878
+    second: Tileset_Castle_2_51
+  - first:
+      213: 1897882072955717460
+    second: Tileset_Castle_2_52
+  - first:
+      213: 3993784001643613267
+    second: Tileset_Castle_2_53
+  - first:
+      213: -4177017048888498863
+    second: Tileset_Castle_2_54
+  - first:
+      213: 8075223167477211113
+    second: Tileset_Castle_2_55
+  - first:
+      213: 4825539255089381469
+    second: Tileset_Castle_2_56
+  - first:
+      213: 5523656846184050852
+    second: Tileset_Castle_2_57
+  - first:
+      213: -1336828010423009137
+    second: Tileset_Castle_2_58
+  - first:
+      213: 7312324928793267828
+    second: Tileset_Castle_2_59
+  - first:
+      213: -1313726352117546719
+    second: Tileset_Castle_2_60
+  - first:
+      213: -2992092021048116473
+    second: Tileset_Castle_2_61
+  - first:
+      213: -1714470696893478054
+    second: Tileset_Castle_2_62
+  - first:
+      213: 3709153548407498270
+    second: Tileset_Castle_2_63
+  - first:
+      213: -6953127762362006444
+    second: Tileset_Castle_2_64
+  - first:
+      213: -8837933516933273735
+    second: Tileset_Castle_2_65
+  - first:
+      213: 8715384639659563014
+    second: Tileset_Castle_2_66
+  - first:
+      213: 6494668426111179241
+    second: Tileset_Castle_2_67
+  - first:
+      213: -5469148329376486448
+    second: Tileset_Castle_2_68
+  - first:
+      213: -364153766733800128
+    second: Tileset_Castle_2_69
+  - first:
+      213: -2025551248485763249
+    second: Tileset_Castle_2_70
+  - first:
+      213: -5796908456137228995
+    second: Tileset_Castle_2_71
+  - first:
+      213: -8240578761902383628
+    second: Tileset_Castle_2_72
+  - first:
+      213: -5947861949940154748
+    second: Tileset_Castle_2_73
+  - first:
+      213: -4410665162030839006
+    second: Tileset_Castle_2_74
+  - first:
+      213: 5020684066145240738
+    second: Tileset_Castle_2_75
+  - first:
+      213: -6394783494528815976
+    second: Tileset_Castle_2_76
+  - first:
+      213: -3061235990762839967
+    second: Tileset_Castle_2_77
+  - first:
+      213: 4937898141136036067
+    second: Tileset_Castle_2_78
+  - first:
+      213: -7151044226252470579
+    second: Tileset_Castle_2_79
+  - first:
+      213: -5693551316850753594
+    second: Tileset_Castle_2_80
+  - first:
+      213: 3654060895894247286
+    second: Tileset_Castle_2_81
+  - first:
+      213: -3907049346978017558
+    second: Tileset_Castle_2_82
+  - first:
+      213: -2328352708012175147
+    second: Tileset_Castle_2_83
+  - first:
+      213: 8233718235125667986
+    second: Tileset_Castle_2_84
+  - first:
+      213: 4857636247209712471
+    second: Tileset_Castle_2_85
+  - first:
+      213: 6767828338051694554
+    second: Tileset_Castle_2_86
+  - first:
+      213: -7902398683353176954
+    second: Tileset_Castle_2_87
+  - first:
+      213: -7653293005693380775
+    second: Tileset_Castle_2_88
+  - first:
+      213: 4129165843104178418
+    second: Tileset_Castle_2_89
+  - first:
+      213: 6733019933891259986
+    second: Tileset_Castle_2_90
+  - first:
+      213: -474403038428034082
+    second: Tileset_Castle_2_91
+  - first:
+      213: 5826591595258386425
+    second: Tileset_Castle_2_92
+  - first:
+      213: 3040979765821653831
+    second: Tileset_Castle_2_93
+  - first:
+      213: 4025115447766269123
+    second: Tileset_Castle_2_94
+  - first:
+      213: 3971945564504251936
+    second: Tileset_Castle_2_95
+  - first:
+      213: 1761137462431243740
+    second: Tileset_Castle_2_96
+  - first:
+      213: -4136146608057042868
+    second: Tileset_Castle_2_97
+  - first:
+      213: 5857699142682966017
+    second: Tileset_Castle_2_98
+  - first:
+      213: 6223876309327532369
+    second: Tileset_Castle_2_99
+  - first:
+      213: 4223723335941949992
+    second: Tileset_Castle_2_100
+  - first:
+      213: -5104287981097912562
+    second: Tileset_Castle_2_101
+  - first:
+      213: 6431340780746257845
+    second: Tileset_Castle_2_102
+  - first:
+      213: 9191567226832226715
+    second: Tileset_Castle_2_103
+  - first:
+      213: -6335493557983018313
+    second: Tileset_Castle_2_104
+  - first:
+      213: -6131092484185080768
+    second: Tileset_Castle_2_105
+  - first:
+      213: -4707392829802419625
+    second: Tileset_Castle_2_106
+  - first:
+      213: 3846525791875693604
+    second: Tileset_Castle_2_107
+  - first:
+      213: -8005891979166432924
+    second: Tileset_Castle_2_108
+  - first:
+      213: 1220316760736925271
+    second: Tileset_Castle_2_109
+  - first:
+      213: 916296935151318499
+    second: Tileset_Castle_2_110
+  - first:
+      213: -6102271637256384984
+    second: Tileset_Castle_2_111
+  - first:
+      213: 2879578913621191526
+    second: Tileset_Castle_2_112
+  - first:
+      213: -7654477324602903627
+    second: Tileset_Castle_2_113
+  - first:
+      213: -318148809529492946
+    second: Tileset_Castle_2_114
+  - first:
+      213: -256271923986294704
+    second: Tileset_Castle_2_115
+  - first:
+      213: -7324565078124717834
+    second: Tileset_Castle_2_116
+  - first:
+      213: 7504373415312232256
+    second: Tileset_Castle_2_117
+  - first:
+      213: -3785164233652490119
+    second: Tileset_Castle_2_118
+  - first:
+      213: 4899845412403215671
+    second: Tileset_Castle_2_119
+  - first:
+      213: 4657540012672995946
+    second: Tileset_Castle_2_120
+  - first:
+      213: 1058452781290088999
+    second: Tileset_Castle_2_121
+  - first:
+      213: -134595025662014204
+    second: Tileset_Castle_2_122
+  - first:
+      213: -6214257540335318451
+    second: Tileset_Castle_2_123
+  - first:
+      213: -8748731260483282097
+    second: Tileset_Castle_2_124
+  - first:
+      213: 8409512107932665226
+    second: Tileset_Castle_2_125
+  - first:
+      213: -7511802650119549813
+    second: Tileset_Castle_2_126
+  - first:
+      213: -1730582795247419584
+    second: Tileset_Castle_2_127
+  - first:
+      213: 6210647749655462684
+    second: Tileset_Castle_2_128
+  - first:
+      213: -251429029064963203
+    second: Tileset_Castle_2_129
+  - first:
+      213: 7788845253089033033
+    second: Tileset_Castle_2_130
+  - first:
+      213: -1574764777760508687
+    second: Tileset_Castle_2_131
+  - first:
+      213: 4676342064768311398
+    second: Tileset_Castle_2_132
+  - first:
+      213: 5218800429257220792
+    second: Tileset_Castle_2_133
+  - first:
+      213: -7929434768604365692
+    second: Tileset_Castle_2_134
+  - first:
+      213: -3835176092925420951
+    second: Tileset_Castle_2_135
+  - first:
+      213: -4100660030752550429
+    second: Tileset_Castle_2_136
+  - first:
+      213: 6160406520399320478
+    second: Tileset_Castle_2_137
+  - first:
+      213: 2996595714232218663
+    second: Tileset_Castle_2_138
+  - first:
+      213: -2303970762824171326
+    second: Tileset_Castle_2_139
+  - first:
+      213: -161458086207032142
+    second: Tileset_Castle_2_140
+  - first:
+      213: -8381887855274193217
+    second: Tileset_Castle_2_141
+  - first:
+      213: 9128897365593104778
+    second: Tileset_Castle_2_142
+  - first:
+      213: 8097462611578980361
+    second: Tileset_Castle_2_143
+  - first:
+      213: -8853560242227226815
+    second: Tileset_Castle_2_144
+  - first:
+      213: 4946165354846082126
+    second: Tileset_Castle_2_145
+  - first:
+      213: 9139009338454887145
+    second: Tileset_Castle_2_146
+  - first:
+      213: -4956661108153632694
+    second: Tileset_Castle_2_147
+  - first:
+      213: -7128109365364083860
+    second: Tileset_Castle_2_148
+  - first:
+      213: 2962494010440810465
+    second: Tileset_Castle_2_149
+  - first:
+      213: 888466055660377592
+    second: Tileset_Castle_2_150
+  - first:
+      213: 575735362838870969
+    second: Tileset_Castle_2_151
+  - first:
+      213: 4582602662770313360
+    second: Tileset_Castle_2_152
+  - first:
+      213: 5299860507022808820
+    second: Tileset_Castle_2_153
+  - first:
+      213: -444504507432718126
+    second: Tileset_Castle_2_154
+  - first:
+      213: 7909212404302493200
+    second: Tileset_Castle_2_155
+  - first:
+      213: -8775351154420946469
+    second: Tileset_Castle_2_156
+  - first:
+      213: 6608462356863850429
+    second: Tileset_Castle_2_157
+  - first:
+      213: 7399739127423147561
+    second: Tileset_Castle_2_158
+  - first:
+      213: -8181087327579209226
+    second: Tileset_Castle_2_159
+  - first:
+      213: 4397230457814930568
+    second: Tileset_Castle_2_160
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tileset_Castle_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 415
+        width: 388
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d9cc7c6b5255600800000000000000
+      internalID: 456312404214324514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_1
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 774
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c5385d82fa88770800000000000000
+      internalID: 8613326877261782077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_2
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 771
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46dfaf5199906cea0800000000000000
+      internalID: -5852980112617964188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_3
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 753
+        width: 104
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0127157b234f28b00800000000000000
+      internalID: 829493780050702864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_4
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 790
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656750c130852f330800000000000000
+      internalID: 3743151010676569686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_5
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 741
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6db8d0c3adbc1660800000000000000
+      internalID: 7357964402229296494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 778
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2563af9b7cf1f15f0800000000000000
+      internalID: -783872867460041134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_7
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 735
+        width: 15
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb45050eed5f34e0800000000000000
+      internalID: -1999776432661378113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_8
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 782
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c097d15c431fd8ae0800000000000000
+      internalID: -1545313888170575604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_9
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 764
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c55f40b4afce2c50800000000000000
+      internalID: 6642474806657635777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_10
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 754
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c86766075ae4f30800000000000000
+      internalID: 4561765374746856529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_11
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 763
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82127f0bc8b0f8c0800000000000000
+      internalID: -3967468089436401011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_12
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 747
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b96b86ab823fe390800000000000000
+      internalID: -7786949655324300872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_13
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 753
+        width: 55
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397acbfda7cfad8e0800000000000000
+      internalID: -1667743107317454957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_14
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 749
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371e9fd1264cbe1a0800000000000000
+      internalID: -6779108888387395213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_15
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 752
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133f4953b023a0c90800000000000000
+      internalID: -7202889630300703951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_16
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 753
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532a26e798dd8a3a0800000000000000
+      internalID: -6653824866839256523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_17
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 746
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8b193e3a7599d70800000000000000
+      internalID: 9050361287586986189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_18
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 736
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52ea3b69049ab4b0800000000000000
+      internalID: -5423860033039703462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_19
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 735
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f340720868bc2b180800000000000000
+      internalID: -9100988118426254273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_20
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 721
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f025c1eaf50d9f0800000000000000
+      internalID: -445751161705590999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_21
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 691
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e25802f0f99bc80800000000000000
+      internalID: -8306433150389244336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_22
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 719
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: badc58bc8839c14e0800000000000000
+      internalID: -2009569117974704725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_23
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 720
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e63d92b91be8ac0800000000000000
+      internalID: -3850945351375425999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_24
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 720
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88369fbe953605e10800000000000000
+      internalID: 2184355057136919432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_25
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 703
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c23dba7749424870800000000000000
+      internalID: 8665569204364980936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_26
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 703
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42dc206c4e4dde10800000000000000
+      internalID: 2224019880928924238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_27
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 706
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87dbb6e4b38e47160800000000000000
+      internalID: 7022493060393844088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_28
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 709
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8048fec7a1dee1c0800000000000000
+      internalID: -4472406861270204273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_29
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 719
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58563e05911f70640800000000000000
+      internalID: 5046266998525486469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_30
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 719
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b20433840154c3c0800000000000000
+      internalID: -4340255061055372622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_31
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 706
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0848dcb2de081e160800000000000000
+      internalID: 7053060247569400960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_32
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 717
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b892cd623f833acd0800000000000000
+      internalID: -2548130347181397621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_33
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 719
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfbb710d0595f760800000000000000
+      internalID: 7491057438292688836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_34
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 710
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e88172eb50c3990800000000000000
+      internalID: -7405037373046092285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_35
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 720
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a273900250767180800000000000000
+      internalID: -9117976898065698137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_36
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 720
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0f572d47378cb20800000000000000
+      internalID: 3154898484557377760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_37
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 706
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7418d30e008118e0800000000000000
+      internalID: -1724456384623799170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_38
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 717
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df441e08eed87d90800000000000000
+      internalID: -7099679724299595815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_39
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 719
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb8a476993225ba0800000000000000
+      internalID: -6101775403363693587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_40
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 710
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce28879a079df24b0800000000000000
+      internalID: -5462908745074310420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_41
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 721
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3f0eb59a4ffb9a0800000000000000
+      internalID: -6214979952519875670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_42
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 720
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79142580cde622030800000000000000
+      internalID: 3468456554340172183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_43
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 720
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f9ed090d6488580800000000000000
+      internalID: -8824725608234836136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_44
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 704
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc52d3a90a19abd0800000000000000
+      internalID: -2618533079633732423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_45
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 704
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bddc2107f2bc430800000000000000
+      internalID: 3804186468642839423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_46
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 710
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b3914de18193f50800000000000000
+      internalID: 6861542027962170207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_47
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 712
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0423ee51a1710ad0800000000000000
+      internalID: -2737782160568933364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_48
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 706
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ae657712c1c5860800000000000000
+      internalID: 7519916407863569040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_49
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 707
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33c302c254f37920800000000000000
+      internalID: 2986999614156292923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_50
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 707
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8950eb8c3afc06800800000000000000
+      internalID: 603710652422161816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_51
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 703
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662220518362bf400800000000000000
+      internalID: 358922617618571878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_52
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 688
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4578b10a0b1a65a10800000000000000
+      internalID: 1897882072955717460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_53
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 704
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c0b97b365cc6730800000000000000
+      internalID: 3993784001643613267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_54
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 710
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1552044ff114806c0800000000000000
+      internalID: -4177017048888498863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_55
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 712
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9efdb7bbfa4f01070800000000000000
+      internalID: 8075223167477211113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_56
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 706
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d504e4db262c7f240800000000000000
+      internalID: 4825539255089381469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_57
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 707
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a074f1d2a8f7ac40800000000000000
+      internalID: 5523656846184050852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_58
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 707
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80c1f0e102a27de0800000000000000
+      internalID: -1336828010423009137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_59
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 690
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ec4f6c7c89a7560800000000000000
+      internalID: 7312324928793267828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_60
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 672
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121c6f9d7d4b4cde0800000000000000
+      internalID: -1313726352117546719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_61
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 690
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b752ed824f976d0800000000000000
+      internalID: -2992092021048116473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_62
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 692
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b09dd1cf9f438e0800000000000000
+      internalID: -1714470696893478054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_63
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 674
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e166536108f897330800000000000000
+      internalID: 3709153548407498270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_64
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 688
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454818ea327818f90800000000000000
+      internalID: -6953127762362006444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_65
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 688
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9776caeaa4a595580800000000000000
+      internalID: -8837933516933273735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_66
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 671
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608ddc7572443f870800000000000000
+      internalID: 8715384639659563014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_67
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 685
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e95d48f582b12a50800000000000000
+      internalID: 6494668426111179241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_68
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 687
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbe79b329ea914b0800000000000000
+      internalID: -5469148329376486448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_69
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 678
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d163a141442faf0800000000000000
+      internalID: -364153766733800128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_70
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 688
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4738af0fdbc3e3e0800000000000000
+      internalID: -2025551248485763249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_71
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 686
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d7b74f87e3d8fa0800000000000000
+      internalID: -5796908456137228995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_72
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 686
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd1e29c64593ad80800000000000000
+      internalID: -8240578761902383628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_73
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 658
+        width: 80
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e31c4d113f47da0800000000000000
+      internalID: -5947861949940154748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_74
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 671
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b06f1676b2ac2c0800000000000000
+      internalID: -4410665162030839006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_75
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 685
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a60d04be8d0da540800000000000000
+      internalID: 5020684066145240738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_76
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 687
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c2411fa4a2147a0800000000000000
+      internalID: -6394783494528815976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_77
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 678
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160a0f4e51e4485d0800000000000000
+      internalID: -3061235990762839967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_78
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 688
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0a97f7230f68440800000000000000
+      internalID: 4937898141136036067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_79
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 686
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc60d110a2362cc90800000000000000
+      internalID: -7151044226252470579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_80
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 686
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf37a83e317cf0b0800000000000000
+      internalID: -5693551316850753594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_81
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 673
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6771c675605d5b230800000000000000
+      internalID: 3654060895894247286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_82
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 672
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee0471c15f57c9c0800000000000000
+      internalID: -3907049346978017558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_83
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 673
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d09d175c8700bfd0800000000000000
+      internalID: -2328352708012175147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_84
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 678
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29852595c1b044270800000000000000
+      internalID: 8233718235125667986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_85
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 680
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b1ff21e6ac96340800000000000000
+      internalID: 4857636247209712471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_86
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 672
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adfb46614082ced50800000000000000
+      internalID: 6767828338051694554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_87
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 673
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6842835244a055290800000000000000
+      internalID: -7902398683353176954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_88
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 673
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9571aa96f8a0ac590800000000000000
+      internalID: -7653293005693380775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_89
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 672
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0a6e0057ebd4930800000000000000
+      internalID: 4129165843104178418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_90
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 678
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e6631f4fd707d50800000000000000
+      internalID: 6733019933891259986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_91
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 680
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb812633f49a69f0800000000000000
+      internalID: -474403038428034082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_92
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 672
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f717ae6f263cd050800000000000000
+      internalID: 5826591595258386425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_93
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 673
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74343f63cfab33a20800000000000000
+      internalID: 3040979765821653831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_94
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 673
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccbb0c7c251cd730800000000000000
+      internalID: 4025115447766269123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_95
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 662
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ed677527f2f1730800000000000000
+      internalID: 3971945564504251936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_96
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 643
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddd8d0f031d07810800000000000000
+      internalID: 1761137462431243740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_97
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 657
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48b2dff2947996c0800000000000000
+      internalID: -4136146608057042868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_98
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 660
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1087ab8b55aba4150800000000000000
+      internalID: 5857699142682966017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_99
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 658
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151df6f1786af5650800000000000000
+      internalID: 6223876309327532369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_100
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 656
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a095ceefdad9a30800000000000000
+      internalID: 4223723335941949992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_101
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 657
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07fc57ff1de929b0800000000000000
+      internalID: -5104287981097912562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_102
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 641
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b53dd98d56b04950800000000000000
+      internalID: 6431340780746257845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_103
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 654
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99057c91b10f8f70800000000000000
+      internalID: 9191567226832226715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_104
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 645
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b285a70d2ec318a0800000000000000
+      internalID: -6335493557983018313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_105
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 655
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cb41b9edbf9eaa0800000000000000
+      internalID: -6131092484185080768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_106
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 654
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ae761892bfbaeb0800000000000000
+      internalID: -4707392829802419625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_107
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 656
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42cf024f3da916530800000000000000
+      internalID: 3846525791875693604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_108
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 655
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461c2a779ab55e090800000000000000
+      internalID: -8005891979166432924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_109
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 659
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7560e2dd0af6fe010800000000000000
+      internalID: 1220316760736925271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_110
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 658
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e53970353757bc00800000000000000
+      internalID: 916296935151318499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_111
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 660
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e4462f640605ba0800000000000000
+      internalID: -6102271637256384984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_112
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 642
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ba819e3c156f720800000000000000
+      internalID: 2879578913621191526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_113
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 641
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3f2cdad65d5c590800000000000000
+      internalID: -7654477324602903627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_114
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 654
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2af746e755b59bf0800000000000000
+      internalID: -318148809529492946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_115
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 645
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05814ecfa0a817cf0800000000000000
+      internalID: -256271923986294704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_116
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 655
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f815206edae95a90800000000000000
+      internalID: -7324565078124717834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_117
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 654
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f02918cd3e42860800000000000000
+      internalID: 7504373415312232256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_118
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 624
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97031a42f25687bc0800000000000000
+      internalID: -3785164233652490119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_119
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 624
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73dfe9c217fbff340800000000000000
+      internalID: 4899845412403215671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_120
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 645
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62da8ef6f7e2a040800000000000000
+      internalID: 4657540012672995946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_121
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 625
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ae158523160be00800000000000000
+      internalID: 1058452781290088999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_122
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 626
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d81ea8982d12ef0800000000000000
+      internalID: -134595025662014204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_123
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 642
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a458d01b582c9a0800000000000000
+      internalID: -6214257540335318451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_124
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 652
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bd9877543469680800000000000000
+      internalID: -8748731260483282097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_125
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 645
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a854ca7e4b694b470800000000000000
+      internalID: 8409512107932665226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_126
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 647
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c49c8f947b0c790800000000000000
+      internalID: -7511802650119549813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_127
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 640
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04fffd2ed1cbbf7e0800000000000000
+      internalID: -1730582795247419584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_128
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 654
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c130b4f0937a03650800000000000000
+      internalID: 6210647749655462684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_129
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 641
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b8c5451aeb28cf0800000000000000
+      internalID: -251429029064963203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_130
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 641
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bfbd89d79871c60800000000000000
+      internalID: 7788845253089033033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_131
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 642
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4b9c037cf452ae0800000000000000
+      internalID: -1574764777760508687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_132
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 640
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6606bb2e454b5e040800000000000000
+      internalID: 4676342064768311398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_133
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 641
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2688b0757ec6840800000000000000
+      internalID: 5218800429257220792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_134
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 640
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c74b3071df4f190800000000000000
+      internalID: -7929434768604365692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_135
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 652
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a1c12c9a7b6cac0800000000000000
+      internalID: -3835176092925420951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_136
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 645
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e11a52ad678717c0800000000000000
+      internalID: -4100660030752550429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_137
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 647
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95d66057192e7550800000000000000
+      internalID: 6160406520399320478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_138
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 640
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724f44aeceb069920800000000000000
+      internalID: 2996595714232218663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_139
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 654
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0caf45cc6a600e0800000000000000
+      internalID: -2303970762824171326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_140
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 641
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4f38dd9b262cdf0800000000000000
+      internalID: -161458086207032142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_141
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 641
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe883f976d8dab80800000000000000
+      internalID: -8381887855274193217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_142
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 625
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a812d2b79cb50be70800000000000000
+      internalID: 9128897365593104778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_143
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 625
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9080c21d757ff5070800000000000000
+      internalID: 8097462611578980361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_144
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 625
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147568c2ed5d12580800000000000000
+      internalID: -8853560242227226815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_145
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 624
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44d1ff2f2f44a440800000000000000
+      internalID: 4946165354846082126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_146
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 630
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eac491a29844de70800000000000000
+      internalID: 9139009338454887145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_147
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 607
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a483280dbf6663bb0800000000000000
+      internalID: -4956661108153632694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_148
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 625
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63b65d6c4ed31d90800000000000000
+      internalID: -7128109365364083860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_149
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 628
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1effb854b94ec1920800000000000000
+      internalID: 2962494010440810465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_150
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 613
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f511aa9b27745c00800000000000000
+      internalID: 888466055660377592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_151
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 612
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb34aa134c6df700800000000000000
+      internalID: 575735362838870969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_152
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 608
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0980f2597dca89f30800000000000000
+      internalID: 4582602662770313360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_153
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 612
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f657302d03ec8940800000000000000
+      internalID: 5299860507022808820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_154
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 612
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0b96d618dc4d9f0800000000000000
+      internalID: -444504507432718126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_155
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 608
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0163093e6ca23cd60800000000000000
+      internalID: 7909212404302493200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_156
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 608
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9ec6d6e90b73680800000000000000
+      internalID: -8775351154420946469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_157
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 608
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7196c1089f5bb50800000000000000
+      internalID: 6608462356863850429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_158
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 610
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e9d98e78721b660800000000000000
+      internalID: 7399739127423147561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_159
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 594
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1013bbb60f67e80800000000000000
+      internalID: -8181087327579209226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Castle_2_160
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 593
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8845699cdc9160d30800000000000000
+      internalID: 4397230457814930568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tileset_Castle_2_0: 456312404214324514
+      Tileset_Castle_2_1: 8613326877261782077
+      Tileset_Castle_2_10: 4561765374746856529
+      Tileset_Castle_2_100: 4223723335941949992
+      Tileset_Castle_2_101: -5104287981097912562
+      Tileset_Castle_2_102: 6431340780746257845
+      Tileset_Castle_2_103: 9191567226832226715
+      Tileset_Castle_2_104: -6335493557983018313
+      Tileset_Castle_2_105: -6131092484185080768
+      Tileset_Castle_2_106: -4707392829802419625
+      Tileset_Castle_2_107: 3846525791875693604
+      Tileset_Castle_2_108: -8005891979166432924
+      Tileset_Castle_2_109: 1220316760736925271
+      Tileset_Castle_2_11: -3967468089436401011
+      Tileset_Castle_2_110: 916296935151318499
+      Tileset_Castle_2_111: -6102271637256384984
+      Tileset_Castle_2_112: 2879578913621191526
+      Tileset_Castle_2_113: -7654477324602903627
+      Tileset_Castle_2_114: -318148809529492946
+      Tileset_Castle_2_115: -256271923986294704
+      Tileset_Castle_2_116: -7324565078124717834
+      Tileset_Castle_2_117: 7504373415312232256
+      Tileset_Castle_2_118: -3785164233652490119
+      Tileset_Castle_2_119: 4899845412403215671
+      Tileset_Castle_2_12: -7786949655324300872
+      Tileset_Castle_2_120: 4657540012672995946
+      Tileset_Castle_2_121: 1058452781290088999
+      Tileset_Castle_2_122: -134595025662014204
+      Tileset_Castle_2_123: -6214257540335318451
+      Tileset_Castle_2_124: -8748731260483282097
+      Tileset_Castle_2_125: 8409512107932665226
+      Tileset_Castle_2_126: -7511802650119549813
+      Tileset_Castle_2_127: -1730582795247419584
+      Tileset_Castle_2_128: 6210647749655462684
+      Tileset_Castle_2_129: -251429029064963203
+      Tileset_Castle_2_13: -1667743107317454957
+      Tileset_Castle_2_130: 7788845253089033033
+      Tileset_Castle_2_131: -1574764777760508687
+      Tileset_Castle_2_132: 4676342064768311398
+      Tileset_Castle_2_133: 5218800429257220792
+      Tileset_Castle_2_134: -7929434768604365692
+      Tileset_Castle_2_135: -3835176092925420951
+      Tileset_Castle_2_136: -4100660030752550429
+      Tileset_Castle_2_137: 6160406520399320478
+      Tileset_Castle_2_138: 2996595714232218663
+      Tileset_Castle_2_139: -2303970762824171326
+      Tileset_Castle_2_14: -6779108888387395213
+      Tileset_Castle_2_140: -161458086207032142
+      Tileset_Castle_2_141: -8381887855274193217
+      Tileset_Castle_2_142: 9128897365593104778
+      Tileset_Castle_2_143: 8097462611578980361
+      Tileset_Castle_2_144: -8853560242227226815
+      Tileset_Castle_2_145: 4946165354846082126
+      Tileset_Castle_2_146: 9139009338454887145
+      Tileset_Castle_2_147: -4956661108153632694
+      Tileset_Castle_2_148: -7128109365364083860
+      Tileset_Castle_2_149: 2962494010440810465
+      Tileset_Castle_2_15: -7202889630300703951
+      Tileset_Castle_2_150: 888466055660377592
+      Tileset_Castle_2_151: 575735362838870969
+      Tileset_Castle_2_152: 4582602662770313360
+      Tileset_Castle_2_153: 5299860507022808820
+      Tileset_Castle_2_154: -444504507432718126
+      Tileset_Castle_2_155: 7909212404302493200
+      Tileset_Castle_2_156: -8775351154420946469
+      Tileset_Castle_2_157: 6608462356863850429
+      Tileset_Castle_2_158: 7399739127423147561
+      Tileset_Castle_2_159: -8181087327579209226
+      Tileset_Castle_2_16: -6653824866839256523
+      Tileset_Castle_2_160: 4397230457814930568
+      Tileset_Castle_2_17: 9050361287586986189
+      Tileset_Castle_2_18: -5423860033039703462
+      Tileset_Castle_2_19: -9100988118426254273
+      Tileset_Castle_2_2: -5852980112617964188
+      Tileset_Castle_2_20: -445751161705590999
+      Tileset_Castle_2_21: -8306433150389244336
+      Tileset_Castle_2_22: -2009569117974704725
+      Tileset_Castle_2_23: -3850945351375425999
+      Tileset_Castle_2_24: 2184355057136919432
+      Tileset_Castle_2_25: 8665569204364980936
+      Tileset_Castle_2_26: 2224019880928924238
+      Tileset_Castle_2_27: 7022493060393844088
+      Tileset_Castle_2_28: -4472406861270204273
+      Tileset_Castle_2_29: 5046266998525486469
+      Tileset_Castle_2_3: 829493780050702864
+      Tileset_Castle_2_30: -4340255061055372622
+      Tileset_Castle_2_31: 7053060247569400960
+      Tileset_Castle_2_32: -2548130347181397621
+      Tileset_Castle_2_33: 7491057438292688836
+      Tileset_Castle_2_34: -7405037373046092285
+      Tileset_Castle_2_35: -9117976898065698137
+      Tileset_Castle_2_36: 3154898484557377760
+      Tileset_Castle_2_37: -1724456384623799170
+      Tileset_Castle_2_38: -7099679724299595815
+      Tileset_Castle_2_39: -6101775403363693587
+      Tileset_Castle_2_4: 3743151010676569686
+      Tileset_Castle_2_40: -5462908745074310420
+      Tileset_Castle_2_41: -6214979952519875670
+      Tileset_Castle_2_42: 3468456554340172183
+      Tileset_Castle_2_43: -8824725608234836136
+      Tileset_Castle_2_44: -2618533079633732423
+      Tileset_Castle_2_45: 3804186468642839423
+      Tileset_Castle_2_46: 6861542027962170207
+      Tileset_Castle_2_47: -2737782160568933364
+      Tileset_Castle_2_48: 7519916407863569040
+      Tileset_Castle_2_49: 2986999614156292923
+      Tileset_Castle_2_5: 7357964402229296494
+      Tileset_Castle_2_50: 603710652422161816
+      Tileset_Castle_2_51: 358922617618571878
+      Tileset_Castle_2_52: 1897882072955717460
+      Tileset_Castle_2_53: 3993784001643613267
+      Tileset_Castle_2_54: -4177017048888498863
+      Tileset_Castle_2_55: 8075223167477211113
+      Tileset_Castle_2_56: 4825539255089381469
+      Tileset_Castle_2_57: 5523656846184050852
+      Tileset_Castle_2_58: -1336828010423009137
+      Tileset_Castle_2_59: 7312324928793267828
+      Tileset_Castle_2_6: -783872867460041134
+      Tileset_Castle_2_60: -1313726352117546719
+      Tileset_Castle_2_61: -2992092021048116473
+      Tileset_Castle_2_62: -1714470696893478054
+      Tileset_Castle_2_63: 3709153548407498270
+      Tileset_Castle_2_64: -6953127762362006444
+      Tileset_Castle_2_65: -8837933516933273735
+      Tileset_Castle_2_66: 8715384639659563014
+      Tileset_Castle_2_67: 6494668426111179241
+      Tileset_Castle_2_68: -5469148329376486448
+      Tileset_Castle_2_69: -364153766733800128
+      Tileset_Castle_2_7: -1999776432661378113
+      Tileset_Castle_2_70: -2025551248485763249
+      Tileset_Castle_2_71: -5796908456137228995
+      Tileset_Castle_2_72: -8240578761902383628
+      Tileset_Castle_2_73: -5947861949940154748
+      Tileset_Castle_2_74: -4410665162030839006
+      Tileset_Castle_2_75: 5020684066145240738
+      Tileset_Castle_2_76: -6394783494528815976
+      Tileset_Castle_2_77: -3061235990762839967
+      Tileset_Castle_2_78: 4937898141136036067
+      Tileset_Castle_2_79: -7151044226252470579
+      Tileset_Castle_2_8: -1545313888170575604
+      Tileset_Castle_2_80: -5693551316850753594
+      Tileset_Castle_2_81: 3654060895894247286
+      Tileset_Castle_2_82: -3907049346978017558
+      Tileset_Castle_2_83: -2328352708012175147
+      Tileset_Castle_2_84: 8233718235125667986
+      Tileset_Castle_2_85: 4857636247209712471
+      Tileset_Castle_2_86: 6767828338051694554
+      Tileset_Castle_2_87: -7902398683353176954
+      Tileset_Castle_2_88: -7653293005693380775
+      Tileset_Castle_2_89: 4129165843104178418
+      Tileset_Castle_2_9: 6642474806657635777
+      Tileset_Castle_2_90: 6733019933891259986
+      Tileset_Castle_2_91: -474403038428034082
+      Tileset_Castle_2_92: 5826591595258386425
+      Tileset_Castle_2_93: 3040979765821653831
+      Tileset_Castle_2_94: 4025115447766269123
+      Tileset_Castle_2_95: 3971945564504251936
+      Tileset_Castle_2_96: 1761137462431243740
+      Tileset_Castle_2_97: -4136146608057042868
+      Tileset_Castle_2_98: 5857699142682966017
+      Tileset_Castle_2_99: 6223876309327532369
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
