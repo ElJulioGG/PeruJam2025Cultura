@@ -3,7 +3,7 @@ using System.Collections;
 using Unity.Collections;
 using DG.Tweening;
 using TMPro;
-
+using UnityEngine.Rendering.Universal;
 public class MenuController : MonoBehaviour
 {
     // === Elementos principales del menú ===
@@ -21,6 +21,10 @@ public class MenuController : MonoBehaviour
 
     private bool isMoving = false;
     private bool moved = false;
+
+    public SpriteRenderer spriteRenderer;
+    public Light2D light2D;
+
 
     // === Créditos del Team ===
     [Header("Créditos del Team")]
@@ -89,7 +93,6 @@ public class MenuController : MonoBehaviour
     {
         StartCoroutine(MoveObjectsStart());
         soundeffect = GetComponent<AudioSource>();
-
     }
 
     private void Update()
@@ -175,7 +178,7 @@ public void StartReturnObjects()
 
             Tween t5 = creditosTeamBloque1.DOMoveY(creditosTeamBloque1.position.y - moveDistancecreditosTeam1, moveDurationCreditos).SetEase(Ease.OutExpo);
             Tween t6 = creditosTeamBloque2.DOMoveY(creditosTeamBloque2.position.y - moveDistancecreditosTeam2, moveDurationCreditos).SetEase(Ease.OutExpo);
-
+            FadeIn();
             particles_1.Play();
             particles_2.Play();
             particles_3.Play();
@@ -271,13 +274,13 @@ public void StartReturnObjects()
             yield return new WaitForSeconds(delayBetweenMoves);
 
 
-            soundeffect.Play();
+
 
             Tween t24 = creditosTeamBloqueRefuerzo1.DOMoveY(creditosTeamBloqueRefuerzo1.position.y - moveDistancecreditosTeam1, moveDurationCreditos).SetEase(Ease.OutExpo);
             yield return t24.WaitForCompletion();
             yield return new WaitForSeconds(delayBetweenMoves);
 
-            soundeffect.Play();
+
 
             Tween t25 = creditosTeamBloqueRefuerzo2.DOMoveY(creditosTeamBloqueRefuerzo2.position.y - moveDistancecreditosTeam2, moveDurationCreditos).SetEase(Ease.OutExpo);
             yield return t25.WaitForCompletion();
@@ -408,6 +411,9 @@ public void StartReturnObjects()
             particles_5.Stop();
             particles_6.Stop();
 
+            FadeOut();
+
+
             Tween t23 = CreditoInstruccions.transform.DOMoveY(CreditoInstruccions.transform.position.y + CreditsDistanceInstruccions, moveDurationCreditos).SetEase(Ease.OutExpo);
             yield return t23.WaitForCompletion();
             yield return new WaitForSeconds(delayBetweenMoves);
@@ -427,5 +433,23 @@ public void StartReturnObjects()
         }
 
 
+    }
+
+    public void FadeOut()
+    {
+        spriteRenderer.DOFade(0f, 0.3f);
+        if (light2D != null)
+        {
+            DOTween.To(() => light2D.intensity, x => light2D.intensity = x, 0f, 0.3f);
+        }
+    }
+
+    public void FadeIn()
+    {
+        spriteRenderer.DOFade(1f, 0.3f);
+        if (light2D != null)
+        {
+            DOTween.To(() => light2D.intensity, x => light2D.intensity = x, 1f, 0.3f);
+        }
     }
 }
