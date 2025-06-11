@@ -16362,7 +16362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiImage: {fileID: 1798811601}
-  fadeDuration: 3
+  fadeDuration: 5
   image: {fileID: 1798811597}
 --- !u!95 &393194337
 Animator:
@@ -49595,7 +49595,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1798811598
 MonoBehaviour:
   m_ObjectHideFlags: 0

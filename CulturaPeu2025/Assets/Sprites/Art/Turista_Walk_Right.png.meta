@@ -1,28 +1,31 @@
 fileFormatVersion: 2
-guid: f66d7abc27ff98d4a82432471a15123b
+guid: 36e1d566547744443868965aa97611bb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7923292553417913656
-    second: Turista_Walk_Down_0
+      213: -7011021523455013837
+    second: Turista_Walk_Right_0
   - first:
-      213: -1077069013394970472
-    second: Turista_Walk_Down_1
+      213: -4748507137144229026
+    second: Turista_Walk_Right_1
   - first:
-      213: -2834977391942195306
-    second: Turista_Walk_Down_2
+      213: -6980937586502561558
+    second: Turista_Walk_Right_2
   - first:
-      213: -525853331994988265
-    second: Turista_Walk_Down_3
+      213: 9025290997127196612
+    second: Turista_Walk_Right_3
   - first:
-      213: 1341155382634561979
-    second: Turista_Walk_Down_4
+      213: -7649239458455671464
+    second: Turista_Walk_Right_4
   - first:
-      213: -9107911667214161594
-    second: Turista_Walk_Down_5
+      213: -1861361564105369840
+    second: Turista_Walk_Right_5
   - first:
-      213: 1022528457751042510
-    second: Turista_Walk_Down_6
+      213: -472489403292386450
+    second: Turista_Walk_Right_6
+  - first:
+      213: 7502172608029985706
+    second: Turista_Walk_Right_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,12 +121,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Turista_Walk_Down_0
+      name: Turista_Walk_Right_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 0
         y: 0
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -133,19 +136,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 835f8f1199035fd60800000000000000
-      internalID: 7923292553417913656
+      spriteID: 33c88d50219d3be90800000000000000
+      internalID: -7011021523455013837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Turista_Walk_Down_1
+      name: Turista_Walk_Right_1
       rect:
         serializedVersion: 2
-        x: 38
+        x: 32
         y: 0
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -155,19 +158,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 898230a507b7d01f0800000000000000
-      internalID: -1077069013394970472
+      spriteID: e537c1ddae9e91eb0800000000000000
+      internalID: -4748507137144229026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Turista_Walk_Down_2
+      name: Turista_Walk_Right_2
       rect:
         serializedVersion: 2
-        x: 70
+        x: 64
         y: 0
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -177,41 +180,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 697a507151328a8d0800000000000000
-      internalID: -2834977391942195306
+      spriteID: ae0975d604abe1f90800000000000000
+      internalID: -6980937586502561558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Turista_Walk_Down_3
+      name: Turista_Walk_Right_3
       rect:
         serializedVersion: 2
-        x: 102
+        x: 96
         y: 0
-        width: 20
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 711bb7e3e2bc3b8f0800000000000000
-      internalID: -525853331994988265
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Turista_Walk_Down_4
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 0
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -221,19 +202,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb1498af6bdbc9210800000000000000
-      internalID: 1341155382634561979
+      spriteID: 4cf2c460856404d70800000000000000
+      internalID: 9025290997127196612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Turista_Walk_Down_5
+      name: Turista_Walk_Right_4
       rect:
         serializedVersion: 2
-        x: 166
+        x: 128
         y: 0
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -243,19 +224,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 649601e28923a9180800000000000000
-      internalID: -9107911667214161594
+      spriteID: 85d29dc6d3178d590800000000000000
+      internalID: -7649239458455671464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Turista_Walk_Down_6
+      name: Turista_Walk_Right_5
       rect:
         serializedVersion: 2
-        x: 198
+        x: 160
         y: 0
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -265,8 +246,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ec99af8f630c03e00800000000000000
-      internalID: 1022528457751042510
+      spriteID: 0171fe4f48d1b26e0800000000000000
+      internalID: -1861361564105369840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turista_Walk_Right_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6bfe9c14616179f0800000000000000
+      internalID: -472489403292386450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turista_Walk_Right_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab0b412d321d1860800000000000000
+      internalID: 7502172608029985706
       vertices: []
       indices: 
       edges: []
@@ -275,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 9fd28de12be456a47bdc94fa5b382b1c
     internalID: 0
     vertices: []
     indices: 
@@ -285,13 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Turista_Walk_Down_0: 7923292553417913656
-      Turista_Walk_Down_1: -1077069013394970472
-      Turista_Walk_Down_2: -2834977391942195306
-      Turista_Walk_Down_3: -525853331994988265
-      Turista_Walk_Down_4: 1341155382634561979
-      Turista_Walk_Down_5: -9107911667214161594
-      Turista_Walk_Down_6: 1022528457751042510
+      Turista_Walk_Right_0: -7011021523455013837
+      Turista_Walk_Right_1: -4748507137144229026
+      Turista_Walk_Right_2: -6980937586502561558
+      Turista_Walk_Right_3: 9025290997127196612
+      Turista_Walk_Right_4: -7649239458455671464
+      Turista_Walk_Right_5: -1861361564105369840
+      Turista_Walk_Right_6: -472489403292386450
+      Turista_Walk_Right_7: 7502172608029985706
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
