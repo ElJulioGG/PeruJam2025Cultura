@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mascota_texto_preocupado_0: 432751168483129563
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

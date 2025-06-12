@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ollafuego_0: -3421175005832435023
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

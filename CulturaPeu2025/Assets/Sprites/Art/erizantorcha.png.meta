@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      erizantorcha_0: -1657643683554604474
+      erizantorcha_1: 1903293271267395173
+      erizantorcha_2: 2527844515978918036
+      erizantorcha_3: 5033066806424248622
+      erizantorcha_4: 4035382261097066379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

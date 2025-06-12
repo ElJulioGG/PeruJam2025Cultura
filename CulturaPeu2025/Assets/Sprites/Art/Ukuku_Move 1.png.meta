@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ukuku_Move 1_0: 5679190159795191091
+      Ukuku_Move 1_1: 9152513375613132278
+      Ukuku_Move 1_2: 8617468233359176439
+      Ukuku_Move 1_3: -1839308598613953315
+      Ukuku_Move 1_4: 7454397538581851894
+      Ukuku_Move 1_5: -9148468898782136062
+      Ukuku_Move 1_6: -6564824545798150575
+      Ukuku_Move 1_7: -9072275910601459628
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

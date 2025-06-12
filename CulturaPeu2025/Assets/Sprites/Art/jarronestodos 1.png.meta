@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      jarronestodos 1_0: -7441523831566306208
+      jarronestodos 1_1: -1560937679655000798
+      jarronestodos 1_2: -980547249786392420
+      jarronestodos 1_3: 4261863848582636154
+      jarronestodos 1_4: -71460300253624096
+      jarronestodos 1_5: -1831301428834646689
+      jarronestodos 1_6: 6658000376201426259
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
