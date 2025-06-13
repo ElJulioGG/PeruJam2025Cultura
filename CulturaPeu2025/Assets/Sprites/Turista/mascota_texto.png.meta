@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mascota_texto_0: 2601655954893955162
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

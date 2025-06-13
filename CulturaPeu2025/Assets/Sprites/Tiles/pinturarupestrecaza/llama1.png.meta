@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      llama1_0: -7747674365263795973
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
