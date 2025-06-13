@@ -18,7 +18,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] public bool playerDied = false;
     [SerializeField] public bool playerCanAction = true;
     [SerializeField] public bool playerInvincibility = false;
+    [SerializeField] public bool playerHasWeapon = false;
 
+    [SerializeField] public int food1Cuantity = 0;
+    [SerializeField] public int food2Cuantity = 0;
+    [SerializeField] public int food3Cuantity = 0;
 
     private void Awake()
     {

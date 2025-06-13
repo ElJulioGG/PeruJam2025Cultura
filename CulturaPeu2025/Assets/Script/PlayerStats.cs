@@ -13,6 +13,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private GameObject[] bloodSplatterPrefabs;
     public static List<GameObject> allSplatters = new List<GameObject>();
     [SerializeField] public bool usingPowerUp;
+    [SerializeField] private GameObject weapon;
 
     [Header("Visual Damage Shake")]
     [SerializeField] private Transform spriteTransform;
@@ -36,14 +37,18 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Color originalColor;
 
-    [Header("Roll Settings")]
-    [SerializeField] private float rollDistance = 2f;
-    [SerializeField] private float rollDuration = 0.3f;
-    [SerializeField] private float rollCooldown = 1f;
-    private bool isRolling = false;
-    private float rollCooldownTimer = 0f;
-    private Vector2 lastMoveDirection = Vector2.down;
 
+    
+    [SerializeField] private int shieldCount = 0;
+
+    [SerializeField] private int maxBaseHealth = 6;
+    [SerializeField] private int maxTotalHealth = 10;
+
+    [SerializeField] private GameObject shieldHeartPrefab; // Para mostrar el sprite del escudo (si tienes uno)
+    [SerializeField] private Transform healthBarParent; // Donde instanciar escudos visuales
+
+
+    private bool isRolling = false;
     private Rigidbody2D rb;
 
     void Start()
@@ -57,18 +62,50 @@ public class PlayerStats : MonoBehaviour
             originalColor = spriteRenderer.color;
 
         rb = GetComponent<Rigidbody2D>();
+        GameManager.instance.playerHealth = health;
+    }
+    private void TryUseHealingItem()
+    {
+        if (GameManager.instance.food1Cuantity > 0 && health < maxBaseHealth)
+        {
+            GameManager.instance.food1Cuantity--;
+            health = Mathf.Min(health + 2, maxBaseHealth);
+            GameManager.instance.playerHealth = health;
+            Debug.Log("Used healing item. Current HP: " + health);
+        }
+        else
+        {
+            Debug.Log("Can't use healing item. Either none left or HP full.");
+        }
+    }
+
+    private void TryUseShieldItem()
+    {
+        if (GameManager.instance.food2Cuantity > 0 && maxBaseHealth + shieldCount < maxTotalHealth)
+        {
+            GameManager.instance.food2Cuantity--;
+            shieldCount++;
+            Debug.Log("Used shield item. Shields: " + shieldCount);
+            UpdateShieldVisuals();
+        }
+        else
+        {
+            Debug.Log("Can't use shield. Either none left or already at max.");
+        }
     }
 
     void Update()
     {
         if (!playerAlive) return;
 
-        // Store last movement direction
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
-        Vector2 inputDir = new Vector2(moveX, moveY).normalized;
-        if (inputDir != Vector2.zero)
-            lastMoveDirection = inputDir;
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+            TryUseHealingItem();
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+            TryUseShieldItem();
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+            TryUseInvulnerabilityItem();
+
 
         // Manual invulnerability (shield)
         if (Input.GetMouseButtonDown(1) && canUseAbility)
@@ -76,7 +113,7 @@ public class PlayerStats : MonoBehaviour
             ActivateInvulnerability();
         }
 
-        if (isInvulnerable && !isRolling)
+        if (!isRolling && isInvulnerable)
         {
             invulnerabilityTimer -= Time.deltaTime;
             if (invulnerabilityTimer <= 0)
@@ -89,39 +126,41 @@ public class PlayerStats : MonoBehaviour
             if (cooldownTimer <= 0)
                 canUseAbility = true;
         }
-
-        // Roll cooldown
-        if (rollCooldownTimer > 0)
-            rollCooldownTimer -= Time.deltaTime;
-
-        // Roll logic
-        if (Input.GetKeyDown(KeyCode.Space) && !isRolling && rollCooldownTimer <= 0 && inputDir != Vector2.zero)
+        if (!GameManager.instance.playerHasWeapon)
         {
-            StartCoroutine(PerformRoll(lastMoveDirection));
+                weapon.SetActive(false);
         }
+        else
+        {
+            
+                weapon.SetActive(true);
+        }
+
     }
 
-    private IEnumerator PerformRoll(Vector2 direction)
+    public void SetRollingState(bool rolling)
     {
-        isRolling = true;
-        isInvulnerable = true;
-        rollCooldownTimer = rollCooldown;
+        isRolling = rolling;
+        isInvulnerable = rolling || invulnerabilityTimer > 0;
 
         if (spriteRenderer != null)
-            spriteRenderer.color = Color.yellow;
-
-        // Apply velocity for rolling using physics
-        rb.linearVelocity = direction.normalized * (rollDistance / rollDuration);
-
-        yield return new WaitForSeconds(rollDuration);
-
-        // Stop rolling movement
-        rb.linearVelocity = Vector2.zero;
-        isInvulnerable = false;
-        isRolling = false;
-
-        if (spriteRenderer != null)
-            spriteRenderer.color = originalColor;
+        {
+            spriteRenderer.color = rolling ? Color.yellow :
+                (invulnerabilityTimer > 0 ? Color.cyan : originalColor);
+        }
+    }
+    private void TryUseInvulnerabilityItem()
+    {
+        if (GameManager.instance.food3Cuantity > 0 && canUseAbility)
+        {
+            GameManager.instance.food3Cuantity--;
+            ActivateInvulnerability();
+            Debug.Log("Used invincibility item. Activated invulnerability!");
+        }
+        else
+        {
+            Debug.Log("Can't use invincibility item. Either none left or ability on cooldown.");
+        }
     }
 
     public void SetPlayerIndex(int index)
@@ -135,6 +174,25 @@ public class PlayerStats : MonoBehaviour
         if (!playerAlive) yield break;
         points += pointsToAdd;
     }
+    private void UpdateShieldVisuals()
+    {
+        if (healthBarParent == null || shieldHeartPrefab == null)
+            return;
+
+        // Limpia los antiguos
+        foreach (Transform child in healthBarParent)
+        {
+            if (child.CompareTag("ShieldHeart"))
+                Destroy(child.gameObject);
+        }
+
+        // Instancia nuevos escudos
+        for (int i = 0; i < shieldCount; i++)
+        {
+            GameObject heart = Instantiate(shieldHeartPrefab, healthBarParent);
+            heart.tag = "ShieldHeart";
+        }
+    }
 
     public void TakeDamage(int damageAmount)
     {
@@ -142,7 +200,15 @@ public class PlayerStats : MonoBehaviour
         if (isInvulnerable)
         {
             Debug.Log("Hit absorbed by invulnerability!");
-            if (!isRolling) DeactivateInvulnerability();
+            return;
+        }
+
+        // Use shield first
+        if (shieldCount > 0)
+        {
+            shieldCount--;
+            Debug.Log("Shield absorbed damage!");
+            UpdateShieldVisuals();
             return;
         }
 
@@ -169,7 +235,7 @@ public class PlayerStats : MonoBehaviour
                 shakeTween.SetEase(shakeEase);
             }
         }
-
+        GameManager.instance.playerHealth = health;
         if (health <= 0 && playerAlive)
         {
             KillPlayer();
@@ -245,7 +311,7 @@ public class PlayerStats : MonoBehaviour
     private void DeactivateInvulnerability()
     {
         isInvulnerable = false;
-        if (spriteRenderer != null)
+        if (!isRolling && spriteRenderer != null)
             spriteRenderer.color = originalColor;
     }
 }
