@@ -208,12 +208,13 @@ public class PlayerStats : MonoBehaviour
         {
             shieldCount--;
             Debug.Log("Shield absorbed damage!");
+            AudioManager.instance.PlaySfx("DamageShield");
             UpdateShieldVisuals();
             return;
         }
 
         health -= damageAmount;
-
+        AudioManager.instance.PlaySfx("Damage");
         if (spriteTransform != null)
         {
             spriteTransform.DOComplete();

@@ -12,6 +12,7 @@ public class MeleeDefault : MonoBehaviour
             EnemyStats stats = other.GetComponent<EnemyStats>();
             if (stats != null)
             {
+                //stats.TakeDamage(damage, transform.position, knockbackForce);
                 stats.TakeDamage(damage);
                 stats.ApplyKnockback(transform.position, knockbackForce);
                 gameObject.SetActive(false);

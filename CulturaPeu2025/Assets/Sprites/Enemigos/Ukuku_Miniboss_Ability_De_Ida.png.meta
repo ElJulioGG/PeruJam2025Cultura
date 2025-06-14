@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 8c89bbdf5c0e87f47b69cf99c77a99e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -700253311977492515
+    second: Ukuku_Miniboss_Ability_De_Ida_0
+  - first:
+      213: -5940210971610535949
+    second: Ukuku_Miniboss_Ability_De_Ida_1
+  - first:
+      213: -3277495836684054052
+    second: Ukuku_Miniboss_Ability_De_Ida_2
+  - first:
+      213: -3873225804358518334
+    second: Ukuku_Miniboss_Ability_De_Ida_3
+  - first:
+      213: -6819398827357865941
+    second: Ukuku_Miniboss_Ability_De_Ida_4
+  - first:
+      213: 5799459935512707367
+    second: Ukuku_Miniboss_Ability_De_Ida_5
+  - first:
+      213: -6088447114494306396
+    second: Ukuku_Miniboss_Ability_De_Ida_6
+  - first:
+      213: 4978017192528219707
+    second: Ukuku_Miniboss_Ability_De_Ida_7
+  - first:
+      213: 4512062860243844084
+    second: Ukuku_Miniboss_Ability_De_Ida_8
+  - first:
+      213: -5041734622590340225
+    second: Ukuku_Miniboss_Ability_De_Ida_9
+  - first:
+      213: -5171108217124646364
+    second: Ukuku_Miniboss_Ability_De_Ida_10
+  - first:
+      213: -8260854487268133300
+    second: Ukuku_Miniboss_Ability_De_Ida_11
+  - first:
+      213: 1564065156451335282
+    second: Ukuku_Miniboss_Ability_De_Ida_12
+  - first:
+      213: 4074600729082209108
+    second: Ukuku_Miniboss_Ability_De_Ida_13
+  - first:
+      213: -5618830057550717258
+    second: Ukuku_Miniboss_Ability_De_Ida_14
+  - first:
+      213: -8776592236308470774
+    second: Ukuku_Miniboss_Ability_De_Ida_15
+  - first:
+      213: 962027045668836685
+    second: Ukuku_Miniboss_Ability_De_Ida_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ukuku_Miniboss_Ability_De_Ida_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf6ac6a2533846f0800000000000000
+      internalID: -700253311977492515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukuku_Miniboss_Ability_De_Ida_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7a64a0891209da0800000000000000
+      internalID: -5940210971610535949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukuku_Miniboss_Ability_De_Ida_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd110a5c6eef382d0800000000000000
+      internalID: -3277495836684054052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukuku_Miniboss_Ability_De_Ida_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c97554f6a98f3ac0800000000000000
+      internalID: -3873225804358518334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukuku_Miniboss_Ability_De_Ida_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b287e91b5e0ac51a0800000000000000
+      internalID: -6819398827357865941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukuku_Miniboss_Ability_De_Ida_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7214851a512db7050800000000000000
+      internalID: 5799459935512707367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukuku_Miniboss_Ability_De_Ida_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a790da7b9d718ba0800000000000000
+      internalID: -6088447114494306396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukuku_Miniboss_Ability_De_Ida_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e8e6e0348751540800000000000000
+      internalID: 4978017192528219707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukuku_Miniboss_Ability_De_Ida_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb3115f3411e9e30800000000000000
+      internalID: 4512062860243844084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukuku_Miniboss_Ability_De_Ida_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73f6b0b219280ab0800000000000000
+      internalID: -5041734622590340225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukuku_Miniboss_Ability_De_Ida_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4229e2769788c38b0800000000000000
+      internalID: -5171108217124646364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukuku_Miniboss_Ability_De_Ida_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46f0399c9c8b5d80800000000000000
+      internalID: -8260854487268133300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukuku_Miniboss_Ability_De_Ida_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cf8d719fca4b510800000000000000
+      internalID: 1564065156451335282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukuku_Miniboss_Ability_De_Ida_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4532e7266c3eb8830800000000000000
+      internalID: 4074600729082209108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukuku_Miniboss_Ability_De_Ida_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bed66e15d7e502b0800000000000000
+      internalID: -5618830057550717258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukuku_Miniboss_Ability_De_Ida_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04e1688cd7433680800000000000000
+      internalID: -8776592236308470774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ukuku_Miniboss_Ability_De_Ida_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45d861408ec95d00800000000000000
+      internalID: 962027045668836685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 241b972e25a5e4d4189a235009c658b2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ukuku_Miniboss_Ability_De_Ida_0: -700253311977492515
+      Ukuku_Miniboss_Ability_De_Ida_1: -5940210971610535949
+      Ukuku_Miniboss_Ability_De_Ida_10: -5171108217124646364
+      Ukuku_Miniboss_Ability_De_Ida_11: -8260854487268133300
+      Ukuku_Miniboss_Ability_De_Ida_12: 1564065156451335282
+      Ukuku_Miniboss_Ability_De_Ida_13: 4074600729082209108
+      Ukuku_Miniboss_Ability_De_Ida_14: -5618830057550717258
+      Ukuku_Miniboss_Ability_De_Ida_15: -8776592236308470774
+      Ukuku_Miniboss_Ability_De_Ida_16: 962027045668836685
+      Ukuku_Miniboss_Ability_De_Ida_2: -3277495836684054052
+      Ukuku_Miniboss_Ability_De_Ida_3: -3873225804358518334
+      Ukuku_Miniboss_Ability_De_Ida_4: -6819398827357865941
+      Ukuku_Miniboss_Ability_De_Ida_5: 5799459935512707367
+      Ukuku_Miniboss_Ability_De_Ida_6: -6088447114494306396
+      Ukuku_Miniboss_Ability_De_Ida_7: 4978017192528219707
+      Ukuku_Miniboss_Ability_De_Ida_8: 4512062860243844084
+      Ukuku_Miniboss_Ability_De_Ida_9: -5041734622590340225
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

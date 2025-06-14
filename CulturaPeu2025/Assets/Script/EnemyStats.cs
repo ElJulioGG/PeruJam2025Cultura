@@ -22,6 +22,23 @@ public class EnemyStats : MonoBehaviour
     [SerializeField] private Ease shakeEase = Ease.OutQuad;
     [SerializeField] private AnimationCurve shakeEaseCurve = AnimationCurve.EaseInOut(0, 0, 1, 1);
     [SerializeField] private bool useCurveInsteadOfEase = false;
+    [SerializeField] private float knockbackDuration = 0.2f;
+    //[SerializeField] private EnemyStateMachine enemyStateMachine;
+    private float knockbackTimer;
+
+    public bool IsKnockedBack => knockbackTimer > 0;
+
+    public void ApplyKnockback(Vector2 origin, float force)
+    {
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            Vector2 knockDirection = (transform.position - (Vector3)origin).normalized;
+            rb.velocity = Vector2.zero;
+            rb.AddForce(knockDirection * force, ForceMode2D.Impulse);
+            knockbackTimer = knockbackDuration;
+        }
+    }
 
     private void Start()
     {
@@ -29,9 +46,19 @@ public class EnemyStats : MonoBehaviour
         isAlive = true;
     }
 
+    private void Update()
+    {
+        if (knockbackTimer > 0f)
+            knockbackTimer -= Time.deltaTime;
+    }
+
     public void TakeDamage(int damageAmount)
     {
         if (!isAlive) return;
+
+        // Sonido de daño aleatorio
+        int dmgIndex = Random.Range(2, 5); // 2, 3, 4
+        AudioManager.instance.PlaySfx($"UkukuDamage{dmgIndex}");
 
         health -= damageAmount;
 
@@ -56,6 +83,10 @@ public class EnemyStats : MonoBehaviour
 
         if (health <= 0 && isAlive)
         {
+            
+            
+                
+            
             KillEnemy();
         }
     }
@@ -63,7 +94,7 @@ public class EnemyStats : MonoBehaviour
     public void KillEnemy()
     {
         isAlive = false;
-        gameObject.SetActive(false);
+        //gameObject.SetActive(false);
 
         if (bloodSplatterPrefab != null)
         {
@@ -71,17 +102,10 @@ public class EnemyStats : MonoBehaviour
             Instantiate(bloodSplatterPrefab, transform.position, randomRotation);
         }
 
-        // You could also: play death SFX, spawn loot, notify spawner, etc.
-    }
-
-    public void ApplyKnockback(Vector2 origin, float force)
-    {
-        Rigidbody2D rb = GetComponent<Rigidbody2D>();
-        if (rb != null)
-        {
-            Vector2 knockDirection = (transform.position - (Vector3)origin).normalized;
-            rb.AddForce(knockDirection * force, ForceMode2D.Impulse);
-        }
+        //  Sonido de muerte aleatorio
+        int deathIndex = Random.Range(1, 3); // 1 o 2
+        AudioManager.instance.PlaySfx($"UkukuDeath{deathIndex}");
+       // Destroy(gameObject, 5f); // Delay to allow sound to play
     }
 
     public void SetHealth(int newHealth)
