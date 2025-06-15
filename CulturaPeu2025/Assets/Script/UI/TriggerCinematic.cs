@@ -9,8 +9,10 @@ public class TriggerCinematic : MonoBehaviour
     public Transform playerTargetPosition;
 
     public GameObject cameraObj;
-    public GameObject petObject; // El GameObject que tiene el script PetFollower
-    public GameObject petBody;   // El cuerpo visual de la mascota, si quieres activarlo por separado
+    public GameObject petObject; 
+    public GameObject petBody;   
+    public AudioSource audioSource;
+    public AudioSource musicCinematic;
 
     private bool hasPlayed = false;
 
@@ -24,6 +26,7 @@ public class TriggerCinematic : MonoBehaviour
             director.Play();
             director.stopped += OnTimelineFinished;
             gameObject.SetActive(false);
+            audioSource.Stop();
         }
     }
 
@@ -52,5 +55,7 @@ public class TriggerCinematic : MonoBehaviour
 
         director.stopped -= OnTimelineFinished;
         GameManager.instance.playerCanMove = true;
+        audioSource.Play();
+        musicCinematic.Stop();
     }
 }
