@@ -1,11 +1,12 @@
 using UnityEngine;
 using System.Collections;
+using DG.Tweening; // Required for DOTween
 
 public class EnemyStateMachine4 : MonoBehaviour
 {
     [SerializeField] private GameObject attackProjectilePrefab;
     [SerializeField] private GameObject defensiveProjectilePrefab;
-    [SerializeField] private float defensiveTriggerRange = 1.5f;
+   // [SerializeField] private float defensiveTriggerRange = 1.5f;
 
     private bool hasDied = false;
     private bool isAlive = true;
@@ -85,7 +86,7 @@ public class EnemyStateMachine4 : MonoBehaviour
         int deathIndex = Random.Range(1, 3);
         AudioManager.instance.PlaySfx($"UkukuDeath{deathIndex}");
 
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
         rb.constraints &= ~RigidbodyConstraints2D.FreezeRotation;
         rb.gravityScale = 2f;
         rb.bodyType = RigidbodyType2D.Dynamic;
@@ -111,13 +112,13 @@ public class EnemyStateMachine4 : MonoBehaviour
             return;
         }
 
-        if (rb.velocity.magnitude > 0.1f)
+        if (rb.linearVelocity.magnitude > 0.1f)
             PlayAnimation("UkukuMove");
         else
             PlayAnimation("UKUKUIdle");
 
         if (!isAttacking)
-            FlipSprite(rb.velocity);
+            FlipSprite(rb.linearVelocity);
 
         if (player == null) return;
 
@@ -138,11 +139,11 @@ public class EnemyStateMachine4 : MonoBehaviour
                     homePosition = lastKnownPlayerPosition;
                     ChangeState(EnemyState.Wander);
                 }
-                else rb.velocity = toLastPosition.normalized * wanderSpeed;
+                else rb.linearVelocity = toLastPosition.normalized * wanderSpeed;
                 break;
 
             case EnemyState.Idle:
-                rb.velocity = Vector2.zero;
+                rb.linearVelocity = Vector2.zero;
                 idleTimer -= Time.deltaTime;
                 if (CanSeePlayer()) ChangeState(EnemyState.Chase);
                 else if (idleTimer <= 0f) ChangeState(EnemyState.Wander);
@@ -176,11 +177,11 @@ public class EnemyStateMachine4 : MonoBehaviour
         float distance = toPlayer.magnitude;
 
         if (distance > stopDistance + 0.5f)
-            rb.velocity = toPlayer.normalized * chaseSpeed;
+            rb.linearVelocity = toPlayer.normalized * chaseSpeed;
         else if (distance < stopDistance - 0.5f)
-            rb.velocity = -toPlayer.normalized * chaseSpeed;
+            rb.linearVelocity = -toPlayer.normalized * chaseSpeed;
         else
-            rb.velocity = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
     }
 
     private void ChangeState(EnemyState newState)
@@ -237,7 +238,7 @@ public class EnemyStateMachine4 : MonoBehaviour
     private IEnumerator RangedAttack()
     {
         isAttacking = true;
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
 
         Vector2 direction = (player.position - transform.position).normalized;
         FlipSprite(direction);
@@ -251,12 +252,12 @@ public class EnemyStateMachine4 : MonoBehaviour
 
         while (stepTimer < stepBackTime)
         {
-            rb.velocity = -direction * stepBackSpeed;
+            rb.linearVelocity = -direction * stepBackSpeed;
             stepTimer += Time.deltaTime;
             yield return null;
         }
 
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
 
         int dashIndex = Random.Range(1, 4);
         AudioManager.instance.PlaySfx($"UkukuDash{dashIndex}");
@@ -268,7 +269,10 @@ public class EnemyStateMachine4 : MonoBehaviour
             GameObject projectile = Instantiate(attackProjectilePrefab, transform.position, Quaternion.identity);
             Rigidbody2D projRb = projectile.GetComponent<Rigidbody2D>();
             if (projRb != null)
-                projRb.velocity = direction * lungeSpeed;
+                projRb.linearVelocity = direction * lungeSpeed;
+
+            // Scale up using DOTween
+            transform.DOScale(1.2f, 1f).SetEase(Ease.OutBack);
         }
 
         if (spriteRenderer != null)
@@ -278,11 +282,14 @@ public class EnemyStateMachine4 : MonoBehaviour
         AudioManager.instance.PlaySfx($"UkukuTired{tiredIndex}");
 
         yield return new WaitForSeconds(recoveryTime);
-        yield return new WaitForSeconds(1f); // <- Wait 1 second
+        yield return new WaitForSeconds(1f);
 
         if (defensiveProjectilePrefab != null)
         {
             Instantiate(defensiveProjectilePrefab, transform.position, Quaternion.identity);
+
+            // Reset scale using DOTween
+            transform.DOScale(1f, 0.3f).SetEase(Ease.InOutQuad);
         }
 
         cooldownTimer = attackCooldown;
@@ -294,7 +301,7 @@ public class EnemyStateMachine4 : MonoBehaviour
     {
         if (isResting)
         {
-            rb.velocity = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
             restTimer -= Time.deltaTime;
             if (restTimer <= 0f)
             {
@@ -305,7 +312,7 @@ public class EnemyStateMachine4 : MonoBehaviour
         }
 
         wanderTimer -= Time.deltaTime;
-        rb.velocity = wanderDirection * wanderSpeed;
+        rb.linearVelocity = wanderDirection * wanderSpeed;
 
         if (wanderTimer <= 0f)
             StartResting();
@@ -315,7 +322,7 @@ public class EnemyStateMachine4 : MonoBehaviour
     {
         isResting = true;
         restTimer = restTime;
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
     }
 
     private void FlipSprite(Vector2 velocity)

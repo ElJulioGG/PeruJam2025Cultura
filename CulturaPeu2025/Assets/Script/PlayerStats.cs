@@ -72,7 +72,7 @@ public class PlayerStats : MonoBehaviour
             health = Mathf.Min(health + 2, maxBaseHealth);
             GameManager.instance.playerHealth = health;
             Debug.Log("Used healing item. Current HP: " + health);
-
+            AudioManager.instance.PlaySfx("Eat");
         }
         else
         {

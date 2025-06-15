@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 06efc3cf58c29ed4f8db2ddb966b0e04
+guid: e517100e8357e1e42aaa88f39bc17468
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6004619691765763407
-    second: Tijera_Attack_0
+      213: -5928131654014593673
+    second: BOSS_Ukuku_idle_0
+  - first:
+      213: -2484192961675380030
+    second: BOSS_Ukuku_idle_1
+  - first:
+      213: 8208086678790241397
+    second: BOSS_Ukuku_idle_2
+  - first:
+      213: -363993232638021563
+    second: BOSS_Ukuku_idle_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tijera_Attack_0
+      name: BOSS_Ukuku_idle_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 3
-        width: 20
-        height: 21
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4d830bbbc1b45350800000000000000
-      internalID: 6004619691765763407
+      spriteID: 77516b45bab0bbda0800000000000000
+      internalID: -5928131654014593673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_idle_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca30d5c9af568dd0800000000000000
+      internalID: -2484192961675380030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_idle_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c78e6985bf8e170800000000000000
+      internalID: 8208086678790241397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_idle_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540f6fb5516d2faf0800000000000000
+      internalID: -363993232638021563
       vertices: []
       indices: 
       edges: []
@@ -125,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f039d5d8780a08d40b7eb8b9d7792a47
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tijera_Attack_0: 6004619691765763407
+      BOSS_Ukuku_idle_0: -5928131654014593673
+      BOSS_Ukuku_idle_1: -2484192961675380030
+      BOSS_Ukuku_idle_2: 8208086678790241397
+      BOSS_Ukuku_idle_3: -363993232638021563
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

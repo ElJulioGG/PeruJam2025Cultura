@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: 7ec42480ca5ac2e40b285e99af3e47b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7430257207187395893
+    second: BOSS_Ukuku_Tijeras_Attack_0
+  - first:
+      213: 3291898822992435290
+    second: BOSS_Ukuku_Tijeras_Attack_1
+  - first:
+      213: -7519112564480832808
+    second: BOSS_Ukuku_Tijeras_Attack_2
+  - first:
+      213: 6581829221856002207
+    second: BOSS_Ukuku_Tijeras_Attack_3
+  - first:
+      213: -6124983818196708730
+    second: BOSS_Ukuku_Tijeras_Attack_4
+  - first:
+      213: -1691657116049984956
+    second: BOSS_Ukuku_Tijeras_Attack_5
+  - first:
+      213: -2596672042555660412
+    second: BOSS_Ukuku_Tijeras_Attack_6
+  - first:
+      213: -985782859035393241
+    second: BOSS_Ukuku_Tijeras_Attack_7
+  - first:
+      213: -4325494049128170082
+    second: BOSS_Ukuku_Tijeras_Attack_8
+  - first:
+      213: -6944316971089236026
+    second: BOSS_Ukuku_Tijeras_Attack_9
+  - first:
+      213: -6268817581385867866
+    second: BOSS_Ukuku_Tijeras_Attack_10
+  - first:
+      213: -971897652072598127
+    second: BOSS_Ukuku_Tijeras_Attack_11
+  - first:
+      213: -6038371649913615296
+    second: BOSS_Ukuku_Tijeras_Attack_12
+  - first:
+      213: 8237710619123589914
+    second: BOSS_Ukuku_Tijeras_Attack_13
+  - first:
+      213: 6124129511182823617
+    second: BOSS_Ukuku_Tijeras_Attack_14
+  - first:
+      213: 4017525606344933161
+    second: BOSS_Ukuku_Tijeras_Attack_15
+  - first:
+      213: 920188077252297632
+    second: BOSS_Ukuku_Tijeras_Attack_16
+  - first:
+      213: 4540320033196300353
+    second: BOSS_Ukuku_Tijeras_Attack_17
+  - first:
+      213: 8414146603693882211
+    second: BOSS_Ukuku_Tijeras_Attack_18
+  - first:
+      213: 7750477301333853289
+    second: BOSS_Ukuku_Tijeras_Attack_19
+  - first:
+      213: 8529979194750619982
+    second: BOSS_Ukuku_Tijeras_Attack_20
+  - first:
+      213: -2649110963558285857
+    second: BOSS_Ukuku_Tijeras_Attack_21
+  - first:
+      213: -8593967260483581662
+    second: BOSS_Ukuku_Tijeras_Attack_22
+  - first:
+      213: 2584238046606699194
+    second: BOSS_Ukuku_Tijeras_Attack_23
+  - first:
+      213: -3893175192836020057
+    second: BOSS_Ukuku_Tijeras_Attack_24
+  - first:
+      213: -3739588851581797290
+    second: BOSS_Ukuku_Tijeras_Attack_25
+  - first:
+      213: -6470522098969020854
+    second: BOSS_Ukuku_Tijeras_Attack_26
+  - first:
+      213: -2754937257356920466
+    second: BOSS_Ukuku_Tijeras_Attack_27
+  - first:
+      213: 4805713338407667192
+    second: BOSS_Ukuku_Tijeras_Attack_28
+  - first:
+      213: -2440097104812054452
+    second: BOSS_Ukuku_Tijeras_Attack_29
+  - first:
+      213: 7243519485748901530
+    second: BOSS_Ukuku_Tijeras_Attack_30
+  - first:
+      213: -4103695011316471107
+    second: BOSS_Ukuku_Tijeras_Attack_31
+  - first:
+      213: -162005365609107790
+    second: BOSS_Ukuku_Tijeras_Attack_32
+  - first:
+      213: -5825287642766771917
+    second: BOSS_Ukuku_Tijeras_Attack_33
+  - first:
+      213: 735127328106379037
+    second: BOSS_Ukuku_Tijeras_Attack_34
+  - first:
+      213: 1610753002373032510
+    second: BOSS_Ukuku_Tijeras_Attack_35
+  - first:
+      213: -8079843671698740506
+    second: BOSS_Ukuku_Tijeras_Attack_36
+  - first:
+      213: -213867725962173354
+    second: BOSS_Ukuku_Tijeras_Attack_37
+  - first:
+      213: 6804544444146506872
+    second: BOSS_Ukuku_Tijeras_Attack_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1
+        width: 85
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535d03010939d1760800000000000000
+      internalID: 7430257207187395893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1
+        width: 82
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a589dfcc98c2fad20800000000000000
+      internalID: 3291898822992435290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 3
+        width: 80
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da81f7e5feb6a790800000000000000
+      internalID: -7519112564480832808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 3
+        width: 79
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9043052eca575b50800000000000000
+      internalID: 6581829221856002207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 3
+        width: 79
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6829e5d3bafaffaa0800000000000000
+      internalID: -6124983818196708730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 3
+        width: 79
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4423414d0d60688e0800000000000000
+      internalID: -1691657116049984956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 3
+        width: 94
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4872849f884c6fbd0800000000000000
+      internalID: -2596672042555660412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 3
+        width: 93
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723c68d66bbc152f0800000000000000
+      internalID: -985782859035393241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 3
+        width: 98
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d36ab6412c8f3c0800000000000000
+      internalID: -4325494049128170082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 3
+        width: 96
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf6282e184d0af90800000000000000
+      internalID: -6944316971089236026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 3
+        width: 102
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad95c39f9fa009a0800000000000000
+      internalID: -6268817581385867866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 3
+        width: 100
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1953d2a1c302382f0800000000000000
+      internalID: -971897652072598127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 3
+        width: 93
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c0c112af4633ca0800000000000000
+      internalID: -6038371649913615296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 3
+        width: 98
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13235fa92a325270800000000000000
+      internalID: 8237710619123589914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 3
+        width: 96
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0f988e7574df450800000000000000
+      internalID: 6124129511182823617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 3
+        width: 103
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fb932d04e11c730800000000000000
+      internalID: 4017525606344933161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 3
+        width: 93
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a34c2f4e2a25cc00800000000000000
+      internalID: 920188077252297632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 2201
+        y: 3
+        width: 98
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1485149b305720f30800000000000000
+      internalID: 4540320033196300353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 3
+        width: 96
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36bbb3981cd05c470800000000000000
+      internalID: 8414146603693882211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 3
+        width: 103
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9648bb1ba0a3f8b60800000000000000
+      internalID: 7750477301333853289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 3
+        width: 100
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41559442e2906670800000000000000
+      internalID: 8529979194750619982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 3
+        width: 100
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fddf38e3d977c3bd0800000000000000
+      internalID: -2649110963558285857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 2841
+        y: 3
+        width: 103
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2290a833f481cb880800000000000000
+      internalID: -8593967260483581662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 2969
+        y: 3
+        width: 95
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abaaa0fbfce0dd320800000000000000
+      internalID: 2584238046606699194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 3097
+        y: 3
+        width: 95
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a865aef9c9a8f9c0800000000000000
+      internalID: -3893175192836020057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_25
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 3
+        width: 83
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65cb47fa0cf4a1cc0800000000000000
+      internalID: -3739588851581797290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_26
+      rect:
+        serializedVersion: 2
+        x: 3353
+        y: 3
+        width: 79
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46f2abee661436a0800000000000000
+      internalID: -6470522098969020854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_27
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 3
+        width: 95
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6970c4292f74c9d0800000000000000
+      internalID: -2754937257356920466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_28
+      rect:
+        serializedVersion: 2
+        x: 3609
+        y: 3
+        width: 90
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5452cc1d251b240800000000000000
+      internalID: 4805713338407667192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_29
+      rect:
+        serializedVersion: 2
+        x: 3737
+        y: 3
+        width: 79
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48e7328c98032ed0800000000000000
+      internalID: -2440097104812054452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_30
+      rect:
+        serializedVersion: 2
+        x: 3865
+        y: 3
+        width: 95
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96feaf2896268460800000000000000
+      internalID: 7243519485748901530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_31
+      rect:
+        serializedVersion: 2
+        x: 3993
+        y: 3
+        width: 83
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba60f7212fbc07c0800000000000000
+      internalID: -4103695011316471107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_32
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 3
+        width: 79
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be69237af070cdf0800000000000000
+      internalID: -162005365609107790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_33
+      rect:
+        serializedVersion: 2
+        x: 4249
+        y: 3
+        width: 95
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339f96aa0cb682fa0800000000000000
+      internalID: -5825287642766771917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_34
+      rect:
+        serializedVersion: 2
+        x: 4377
+        y: 3
+        width: 91
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d177678f862b33a00800000000000000
+      internalID: 735127328106379037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_35
+      rect:
+        serializedVersion: 2
+        x: 4505
+        y: 3
+        width: 79
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3aa65f425b8a5610800000000000000
+      internalID: 1610753002373032510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_36
+      rect:
+        serializedVersion: 2
+        x: 4633
+        y: 3
+        width: 79
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea65bb4df0aedf80800000000000000
+      internalID: -8079843671698740506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_37
+      rect:
+        serializedVersion: 2
+        x: 4761
+        y: 3
+        width: 79
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654aa15bf60380df0800000000000000
+      internalID: -213867725962173354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Tijeras_Attack_38
+      rect:
+        serializedVersion: 2
+        x: 4884
+        y: 1
+        width: 85
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87cd5b3be199e6e50800000000000000
+      internalID: 6804544444146506872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

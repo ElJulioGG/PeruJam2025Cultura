@@ -23,6 +23,7 @@ public class ProyectilCoca : MonoBehaviour
 
     private void OnEnable()
     {
+        AudioManager.instance.PlaySfx("Leaves");
         // Spawn particle effect
         if (spinParticlePrefab != null)
             Instantiate(spinParticlePrefab, transform.position, Quaternion.identity, transform);

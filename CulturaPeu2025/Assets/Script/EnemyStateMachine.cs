@@ -85,7 +85,7 @@ public class EnemyStateMachine : MonoBehaviour
         AudioManager.instance.PlaySfx($"UkukuDeath{deathIndex}");
 
         // Stop movement
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
 
         // Unlock only rotation
         rb.constraints &= ~RigidbodyConstraints2D.FreezeRotation;
@@ -134,13 +134,13 @@ public class EnemyStateMachine : MonoBehaviour
         }
            
 
-        if (rb.velocity.magnitude > 0.1f)
+        if (rb.linearVelocity.magnitude > 0.1f)
             PlayAnimation("UkukuMove");
         else
             PlayAnimation("UKUKUIdle");
 
         if (!isAttacking)
-            FlipSprite(rb.velocity);
+            FlipSprite(rb.linearVelocity);
 
         if (player == null) return;
 
@@ -172,12 +172,12 @@ public class EnemyStateMachine : MonoBehaviour
                 }
                 else
                 {
-                    rb.velocity = toLastPosition.normalized * wanderSpeed;
+                    rb.linearVelocity = toLastPosition.normalized * wanderSpeed;
                 }
                 break;
 
             case EnemyState.Idle:
-                rb.velocity = Vector2.zero;
+                rb.linearVelocity = Vector2.zero;
                 idleTimer -= Time.deltaTime;
                 if (CanSeePlayer())
                 {
@@ -280,14 +280,14 @@ public class EnemyStateMachine : MonoBehaviour
     private void ChasePlayer()
     {
         Vector2 direction = (player.position - transform.position).normalized;
-        rb.velocity = direction * chaseSpeed;
+        rb.linearVelocity = direction * chaseSpeed;
     }
 
     private IEnumerator AttackLunge()
     {
         isAttacking = true;
 
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
         Vector2 direction = (player.position - transform.position).normalized;
 
         FlipSprite(direction);
@@ -300,12 +300,12 @@ public class EnemyStateMachine : MonoBehaviour
         float stepTimer = 0f;
         while (stepTimer < stepBackTime)
         {
-            rb.velocity = -direction * stepBackSpeed;
+            rb.linearVelocity = -direction * stepBackSpeed;
             stepTimer += Time.deltaTime;
             yield return null;
         }
 
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
 
         int dashIndex = Random.Range(1, 4);
         AudioManager.instance.PlaySfx($"UkukuDash{dashIndex}");
@@ -313,12 +313,12 @@ public class EnemyStateMachine : MonoBehaviour
         float timer = 0f;
         while (timer < lungeDuration)
         {
-            rb.velocity = direction * lungeSpeed;
+            rb.linearVelocity = direction * lungeSpeed;
             timer += Time.deltaTime;
             yield return null;
         }
 
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
 
         if (spriteRenderer != null)
             spriteRenderer.color = originalColor;
@@ -338,7 +338,7 @@ public class EnemyStateMachine : MonoBehaviour
     {
         if (isResting)
         {
-            rb.velocity = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
             restTimer -= Time.deltaTime;
             if (restTimer <= 0f)
             {
@@ -349,7 +349,7 @@ public class EnemyStateMachine : MonoBehaviour
         }
 
         wanderTimer -= Time.deltaTime;
-        rb.velocity = wanderDirection * wanderSpeed;
+        rb.linearVelocity = wanderDirection * wanderSpeed;
 
         if (wanderTimer <= 0f)
         {
@@ -361,7 +361,7 @@ public class EnemyStateMachine : MonoBehaviour
     {
         isResting = true;
         restTimer = restTime;
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
     }
 
     private void FlipSprite(Vector2 velocity)

@@ -1,11 +1,11 @@
 using UnityEngine;
 using System.Collections;
-using UnityEngine.Splines;
 
-public class RangedEnemyStateMachine : MonoBehaviour
+public class EnemyStateMachine5 : MonoBehaviour
 {
     [Header("VFX")]
     [SerializeField] private ParticleSystem attackParticles;
+    [SerializeField] private GameObject teleportEffectPrefab;
 
     private enum EnemyState { Wander, Idle, Chase, Attack, ReturnHome }
 
@@ -14,6 +14,8 @@ public class RangedEnemyStateMachine : MonoBehaviour
     private bool isAttacking = false;
     private bool isResting = false;
     private string currentAnimation = "";
+    private bool hasSpottedPlayer = false;
+    private bool isAlive = true;
 
     [Header("References")]
     [SerializeField] private Transform player;
@@ -21,6 +23,7 @@ public class RangedEnemyStateMachine : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator animator;
     [SerializeField] private GameObject attackPrefab;
+    [SerializeField] private GameObject attackPrefab2;
 
     [Header("Wander Settings")]
     [SerializeField] private float wanderSpeed = 1f;
@@ -50,7 +53,6 @@ public class RangedEnemyStateMachine : MonoBehaviour
     private Vector2 wanderDirection;
     private float wanderTimer = 0f;
     private float restTimer = 0f;
-    private bool hasSpottedPlayer = false;
 
     private void Start()
     {
@@ -60,46 +62,13 @@ public class RangedEnemyStateMachine : MonoBehaviour
         if (player == null) player = GameObject.FindGameObjectWithTag("Player")?.transform;
         PickNewWanderDirection();
     }
-    private bool isAlive = true;
-    public void Die()
-    {
-        isAlive = false;
-        ChangeState(EnemyState.Idle);
-     
 
-
-        // Play random death sound
-        int deathIndex = Random.Range(1, 3); // 1 or 2
-        AudioManager.instance.PlaySfx($"UkukuDeath{deathIndex}");
-
-        // Stop movement
-        rb.linearVelocity = Vector2.zero;
-
-      
-        rb.bodyType = RigidbodyType2D.Static;
-        rb.simulated = true;
-
-        // Disable all hitboxes / colliders
-        foreach (Collider2D col in GetComponentsInChildren<Collider2D>())
-        {
-            col.enabled = false;
-        }
-
-       
-        PlayAnimation("Ukuku2Death");
-
-      
-    }
     private void Update()
     {
         if (!stats.isAlive)
         {
             if (isAlive)
-            {
                 Die();
-
-            }
-
             return;
         }
 
@@ -113,7 +82,6 @@ public class RangedEnemyStateMachine : MonoBehaviour
                 else
                     Wander();
                 break;
-
             case EnemyState.Idle:
                 rb.linearVelocity = Vector2.zero;
                 if (CanSeePlayer())
@@ -121,12 +89,9 @@ public class RangedEnemyStateMachine : MonoBehaviour
                 else if ((restTimer -= Time.deltaTime) <= 0f)
                     ChangeState(EnemyState.Wander);
                 break;
-
             case EnemyState.Chase:
                 if (!CanSeePlayer())
-                {
                     ChangeState(EnemyState.ReturnHome);
-                }
                 else
                 {
                     MaintainDistanceFromPlayer();
@@ -134,12 +99,10 @@ public class RangedEnemyStateMachine : MonoBehaviour
                         ChangeState(EnemyState.Attack);
                 }
                 break;
-
             case EnemyState.Attack:
                 if (!isAttacking)
                     StartCoroutine(PerformAttack());
                 break;
-
             case EnemyState.ReturnHome:
                 if (CanSeePlayer())
                 {
@@ -155,13 +118,21 @@ public class RangedEnemyStateMachine : MonoBehaviour
                 break;
         }
 
+        UpdateAnimation(); // nuevo m�todo
+        FlipSprite(rb.linearVelocity);
+    }
+
+    private void UpdateAnimation()
+    {
+        if (isAttacking || !isAlive)
+            return;
+
         if (rb.linearVelocity.magnitude > 0.1f)
             PlayAnimation(moveAnimationName);
         else
             PlayAnimation(idleAnimationName);
-
-        FlipSprite(rb.linearVelocity);
     }
+
 
     private void ChangeState(EnemyState newState)
     {
@@ -256,7 +227,7 @@ public class RangedEnemyStateMachine : MonoBehaviour
     {
         isAttacking = true;
         rb.linearVelocity = Vector2.zero;
-        PlayAnimation(attackAnimationName);
+        PlayAnimation("Ukuku2Atack");
 
         if (attackParticles != null) attackParticles.Play();
 
@@ -265,24 +236,66 @@ public class RangedEnemyStateMachine : MonoBehaviour
         {
             if (player != null && stats.isAlive)
             {
-                Vector3 spawnPos = player.position + attackOffset;
-                Instantiate(attackPrefab, spawnPos, Quaternion.identity);
+                Vector3 spawnPos = transform.position + attackOffset;
 
-                if (!string.IsNullOrEmpty(onCastSfx))
-                    AudioManager.instance.PlaySfx(onCastSfx);
+                // 50/50 chance to pick between attackPrefab and attackPrefab2
+                GameObject chosenPrefab = Random.value < 0.5f ? attackPrefab : attackPrefab2;
+                GameObject projectile = Instantiate(chosenPrefab, spawnPos, Quaternion.identity);
+
+                EnemyProjectile ep = projectile.GetComponent<EnemyProjectile>();
+                if (ep != null && player != null)
+                {
+                    Vector2 dirToPlayer = (player.position - spawnPos).normalized;
+                    ep.Initialize(dirToPlayer);
+                }
+                else
+                {
+                    Debug.LogError("Projectile is missing EnemyProjectile or player reference is null.");
+                }
+
+                AudioManager.instance.PlaySfx("CastAnimal");
             }
             yield return new WaitForSeconds(delay);
         }
 
         cooldownTimer = attackCooldown;
-
-        // etiene part�culas al terminar
         if (attackParticles != null) attackParticles.Stop();
-
         isAttacking = false;
         ChangeState(EnemyState.Chase);
     }
 
+
+    public void TeleportToProjectile(Vector3 position)
+    {
+        if (!stats.isAlive) return;
+
+        if (teleportEffectPrefab != null)
+            Instantiate(teleportEffectPrefab, transform.position, Quaternion.identity);
+
+        transform.position = position;
+        rb.position = position;
+
+        if (teleportEffectPrefab != null)
+            Instantiate(teleportEffectPrefab, position, Quaternion.identity);
+
+        AudioManager.instance.PlaySfx("UkukuTeleport");
+    }
+
+    private void Die()
+    {
+        isAlive = false;
+        ChangeState(EnemyState.Idle);
+        rb.linearVelocity = Vector2.zero;
+        rb.bodyType = RigidbodyType2D.Static;
+        rb.simulated = true;
+
+        foreach (Collider2D col in GetComponentsInChildren<Collider2D>())
+            col.enabled = false;
+
+        int deathIndex = Random.Range(1, 3);
+        AudioManager.instance.PlaySfx($"UkukuDeath{deathIndex}");
+        PlayAnimation("Ukuku2Death");
+    }
 
     private void FlipSprite(Vector2 velocity)
     {

@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class EnemyStats : MonoBehaviour
 {
+    [SerializeField] private bool boss =false;
     [SerializeField] private int health = 3;
     public int baseHealth = 3;
     public bool isAlive = true;
@@ -34,7 +35,7 @@ public class EnemyStats : MonoBehaviour
         if (rb != null)
         {
             Vector2 knockDirection = (transform.position - (Vector3)origin).normalized;
-            rb.velocity = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
             rb.AddForce(knockDirection * force, ForceMode2D.Impulse);
             knockbackTimer = knockbackDuration;
         }
@@ -58,7 +59,15 @@ public class EnemyStats : MonoBehaviour
 
         // Sonido de daño aleatorio
         int dmgIndex = Random.Range(2, 5); // 2, 3, 4
-        AudioManager.instance.PlaySfx($"UkukuDamage{dmgIndex}");
+        if (boss)
+        {
+            AudioManager.instance.PlayUI($"BossDamage{dmgIndex}");
+        }
+        else
+        {
+            AudioManager.instance.PlaySfx($"UkukuDamage{dmgIndex}");
+        }
+            
 
         health -= damageAmount;
 
@@ -104,7 +113,15 @@ public class EnemyStats : MonoBehaviour
 
         //  Sonido de muerte aleatorio
         int deathIndex = Random.Range(1, 3); // 1 o 2
-        AudioManager.instance.PlaySfx($"UkukuDeath{deathIndex}");
+        if (boss)
+        {
+            AudioManager.instance.PlayUI($"BossDeath{deathIndex}");
+        }
+        else
+        {
+            AudioManager.instance.PlaySfx($"UkukuDeath{deathIndex}");
+        }
+        
        // Destroy(gameObject, 5f); // Delay to allow sound to play
     }
 
