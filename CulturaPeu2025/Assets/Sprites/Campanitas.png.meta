@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Campanitas_0: -1127112722321218284
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

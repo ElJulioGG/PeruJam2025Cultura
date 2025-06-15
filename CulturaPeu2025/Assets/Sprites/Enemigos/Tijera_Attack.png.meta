@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tijera_Attack_0: 6004619691765763407
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

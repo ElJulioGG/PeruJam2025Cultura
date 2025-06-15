@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HojasDeCoca_0: -6290637756685147640
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

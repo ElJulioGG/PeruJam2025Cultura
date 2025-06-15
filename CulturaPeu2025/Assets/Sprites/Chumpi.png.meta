@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chumpi_0: -5286986955110030449
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
