@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tilsetcaminadosycuevas_0: -8159753462675623890
+      tilsetcaminadosycuevas_1: 5651442079283788663
+      tilsetcaminadosycuevas_2: 5102620798398601839
+      tilsetcaminadosycuevas_3: 3627306503440583013
+      tilsetcaminadosycuevas_4: -6204212880018962485
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

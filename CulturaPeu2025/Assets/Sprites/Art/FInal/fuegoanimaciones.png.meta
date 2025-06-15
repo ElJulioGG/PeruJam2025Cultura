@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fuegoanimaciones_0: -3411121621275344285
+      fuegoanimaciones_1: -2040681836116153458
+      fuegoanimaciones_2: 949365909713411355
+      fuegoanimaciones_3: 2305791382302462705
+      fuegoanimaciones_4: -9089728512636623440
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

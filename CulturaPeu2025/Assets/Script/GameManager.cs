@@ -20,6 +20,25 @@ public class GameManager : MonoBehaviour
     [SerializeField] public bool playerInvincibility = false;
     [SerializeField] public bool playerHasWeapon = false;
 
+    [SerializeField] public int floorType = 0;
+    [Header("Items")]
+    [SerializeField] public bool LatigoPickup = false;
+    [SerializeField] public bool MascaraPickup = false;
+    [SerializeField] public bool CampanitasPickup = false;
+    [SerializeField] public bool BolsaPikcup = false;
+
+    [SerializeField] public bool ChumpiPickup = false;
+    [SerializeField] public bool PututuPickup = false;
+    [SerializeField] public bool MullyPickup = false;
+
+    [SerializeField] public bool ChichaPickup = false;
+    [SerializeField] public bool ConopasPickup = false;
+    [SerializeField] public bool CuchilloPickup = false;
+
+    [SerializeField] public bool CocaPikcup = false;
+
+
+
     [SerializeField] public int food1Cuantity = 0;
     [SerializeField] public int food2Cuantity = 0;
     [SerializeField] public int food3Cuantity = 0;

@@ -50,7 +50,6 @@ public class Movement : MonoBehaviour
         }
         else
         {
-            // Reapply the proper animation after roll ends
             if (animator.GetCurrentAnimatorStateInfo(0).IsName("TuristaRoll") &&
                 animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f)
             {
@@ -59,7 +58,6 @@ public class Movement : MonoBehaviour
                 if (playerStats != null)
                     playerStats.SetRollingState(false);
 
-                // Play correct post-roll animation
                 HandleAnimation(moveInput);
             }
         }
@@ -67,7 +65,6 @@ public class Movement : MonoBehaviour
         if (rollCooldownTimer > 0)
             rollCooldownTimer -= Time.deltaTime;
     }
-
 
     void FixedUpdate()
     {
@@ -86,12 +83,16 @@ public class Movement : MonoBehaviour
         {
             string idleAnim = hasWeapon ? "TuristaIdleNoArms" : "TuristaIdle";
             animator.Play(idleAnim);
+
+            // STOP footsteps if not walking
+            AudioManager.instance.FootStepsSource.Stop();
             return;
         }
 
+        PlayFootstepSound(); //reproduce pasos cuando se camina
+
         if (hasWeapon)
         {
-            // Only one walk anim when no arms
             animator.Play("TuristaWalkNoArms");
 
             if (spriteHolder != null && direction.x != 0)
@@ -110,15 +111,34 @@ public class Movement : MonoBehaviour
             }
             else
             {
-                if (direction.y > 0)
-                    animator.Play(prefix + "Up");
-                else
-                    animator.Play(prefix + "Down");
+                animator.Play(direction.y > 0 ? prefix + "Up" : prefix + "Down");
             }
         }
     }
 
+    private void PlayFootstepSound()
+    {
+        if (AudioManager.instance == null || GameManager.instance == null) return;
 
+        if (!AudioManager.instance.FootStepsSource.isPlaying)
+        {
+            switch (GameManager.instance.floorType)
+            {
+                case 0:
+                    AudioManager.instance.PlayFootSteps("GrassStep");
+                    break;
+                case 1:
+                    AudioManager.instance.PlayFootSteps("StoneStep");
+                    break;
+                case 2:
+                    AudioManager.instance.PlayFootSteps("WaterStep");
+                    break;
+                default:
+                    AudioManager.instance.FootStepsSource.Stop();
+                    break;
+            }
+        }
+    }
 
     private IEnumerator PerformRoll(Vector2 direction)
     {
@@ -128,8 +148,7 @@ public class Movement : MonoBehaviour
         if (animator != null)
         {
             bool hasWeapon = GameManager.instance != null && GameManager.instance.playerHasWeapon;
-            string rollAnim = hasWeapon ? "TuristaRoll" : "TuristaRoll";
-            animator.Play(rollAnim);
+            animator.Play(hasWeapon ? "TuristaRoll" : "TuristaRoll");
         }
 
         rb.linearVelocity = Vector2.zero;
@@ -138,6 +157,8 @@ public class Movement : MonoBehaviour
         if (playerStats != null)
             playerStats.SetRollingState(true);
 
+        AudioManager.instance.FootStepsSource.Stop(); // Detenemos pasos al rodar
+
         yield return new WaitForSeconds(rollDuration);
 
         isRolling = false;
@@ -145,9 +166,8 @@ public class Movement : MonoBehaviour
         if (playerStats != null)
             playerStats.SetRollingState(false);
 
-        HandleAnimation(moveInput); // ensure animation updates right after roll ends
+        HandleAnimation(moveInput);
     }
-
 
     public void SetInputVector(Vector2 direction)
     {

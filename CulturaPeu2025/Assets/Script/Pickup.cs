@@ -13,6 +13,7 @@ public class Pickup : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            AudioManager.instance.PlaySfx("Pickup");
             switch (pickupType)
             {
                 case 0:

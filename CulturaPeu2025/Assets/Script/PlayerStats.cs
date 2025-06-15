@@ -14,7 +14,7 @@ public class PlayerStats : MonoBehaviour
     public static List<GameObject> allSplatters = new List<GameObject>();
     [SerializeField] public bool usingPowerUp;
     [SerializeField] private GameObject weapon;
-
+    [SerializeField] private GameObject canvasGameOver;
     [Header("Visual Damage Shake")]
     [SerializeField] private Transform spriteTransform;
     [SerializeField] private float maxShakeDuration = 0.1f;
@@ -72,6 +72,7 @@ public class PlayerStats : MonoBehaviour
             health = Mathf.Min(health + 2, maxBaseHealth);
             GameManager.instance.playerHealth = health;
             Debug.Log("Used healing item. Current HP: " + health);
+
         }
         else
         {
@@ -86,6 +87,7 @@ public class PlayerStats : MonoBehaviour
             GameManager.instance.food2Cuantity--;
             shieldCount++;
             Debug.Log("Used shield item. Shields: " + shieldCount);
+            AudioManager.instance.PlaySfx("DamageShield");
             UpdateShieldVisuals();
         }
         else
@@ -255,6 +257,7 @@ public class PlayerStats : MonoBehaviour
 
     public void KillPlayer()
     {
+        canvasGameOver.SetActive(true);
         playerAlive = false;
         gameObject.SetActive(false);
 
