@@ -4,7 +4,7 @@ public class NPCInteraction : MonoBehaviour
 {
     private NPCController npc;
     public bool showInteract;
-
+    public GameObject Texto;
     private void Update()
     {
         if (GameManager.instance.playerCanAction && npc != null)
@@ -17,7 +17,6 @@ public class NPCInteraction : MonoBehaviour
                 GameManager.instance.playerIsInDialog = true;
                 GameManager.instance.playerCanMove = false;
                 GameManager.instance.playerCanDialog = false;
-
                 npc.ActiveDialog();
 
             }
@@ -33,6 +32,8 @@ public class NPCInteraction : MonoBehaviour
             {
                 showInteract = true;
                 GameManager.instance.playerCanDialog = true;
+                Texto.SetActive(true);
+
                 Debug.Log("Player Can Dialog");
             }
         }
