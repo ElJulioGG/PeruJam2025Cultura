@@ -7,6 +7,7 @@ public class PlacaPresion : MonoBehaviour
     public Sprite spriteNormal;
     public AudioSource soundPressed;
     public List<GameObject> objectsToDeactivate;
+    public CameraShake cameraShake;
 
     private SpriteRenderer spriteRenderer;
 
@@ -38,7 +39,7 @@ public class PlacaPresion : MonoBehaviour
             {
                 spriteRenderer.sprite = spritePressed;
             }
-
+            cameraShake.Shake(4);
             foreach (GameObject obj in objectsToDeactivate)
             {
                 if (obj != null)
