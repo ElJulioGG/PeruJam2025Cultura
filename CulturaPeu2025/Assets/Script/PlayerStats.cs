@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
+    private bool recentlyDamaged = false;
     [SerializeField] public int playerIndex = 0;
     [SerializeField] private int health = 6;
     public int baseHealth = 6;
@@ -36,9 +37,11 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private float cooldownTimer = 0f;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Color originalColor;
+    [SerializeField] private float postHitInvulnerability = 0.8f;
+    private Coroutine damageCooldownCoroutine;
 
 
-    
+
     [SerializeField] private int shieldCount = 0;
 
     [SerializeField] private int maxBaseHealth = 6;
@@ -199,11 +202,16 @@ public class PlayerStats : MonoBehaviour
     public void TakeDamage(int damageAmount)
     {
         if (!playerAlive) return;
-        if (isInvulnerable)
+
+        // If recently damaged or under any invulnerability, ignore damage
+        if (isInvulnerable || recentlyDamaged)
         {
-            Debug.Log("Hit absorbed by invulnerability!");
+            Debug.Log("Damage ignored due to invulnerability or cooldown.");
             return;
         }
+
+        // Start damage cooldown
+        StartCoroutine(DamageCooldown());
 
         // Use shield first
         if (shieldCount > 0)
@@ -217,6 +225,8 @@ public class PlayerStats : MonoBehaviour
 
         health -= damageAmount;
         AudioManager.instance.PlaySfx("Damage");
+
+        // Visual shake
         if (spriteTransform != null)
         {
             spriteTransform.DOComplete();
@@ -229,21 +239,28 @@ public class PlayerStats : MonoBehaviour
                 fadeOut: true
             );
 
-            if (useCurveInsteadOfEase)
-            {
-                shakeTween.SetEase(shakeEaseCurve);
-            }
-            else
-            {
-                shakeTween.SetEase(shakeEase);
-            }
+            //shakeTween.SetEase(useCurveInsteadOfEase ? shakeEaseCurve : shakeEase);
         }
+
         GameManager.instance.playerHealth = health;
+
         if (health <= 0 && playerAlive)
         {
             KillPlayer();
         }
     }
+
+    private IEnumerator DamageCooldown()
+    {
+        recentlyDamaged = true;
+
+        // Optional: flash the player sprite here if you want visual feedback
+        yield return new WaitForSeconds(postHitInvulnerability);
+
+        recentlyDamaged = false;
+    }
+
+
 
     public void SetPlayerHealth(int newHealth) => health = newHealth;
     public int GetPlayerHealth() => health;

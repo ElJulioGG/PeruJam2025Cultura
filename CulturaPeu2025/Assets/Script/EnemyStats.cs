@@ -6,7 +6,7 @@ using UnityEngine;
 public class EnemyStats : MonoBehaviour
 {
     [SerializeField] private bool boss =false;
-    [SerializeField] private int health = 3;
+    [SerializeField] public int health = 3;
     public int baseHealth = 3;
     public bool isAlive = true;
 
