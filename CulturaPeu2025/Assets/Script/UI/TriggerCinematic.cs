@@ -1,3 +1,5 @@
+using Unity.Cinemachine;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Playables;
 
@@ -5,12 +7,23 @@ public class TriggerCinematic : MonoBehaviour
 {
     public PlayableDirector director;
 
-    public GameObject player;
-    public Transform playerTargetPosition;
+    public GameObject player1;
+    public GameObject player2;
+
+    public Transform playerTarget;                
+    public Transform newTarget;
+
+
+    public GameObject cameraWA;
+    public CinemachineCamera cineCamera; 
+
 
     public GameObject cameraObj;
     public GameObject petObject; 
     public GameObject petBody;   
+
+
+
     public AudioSource audioSource;
     public AudioSource musicCinematic;
 
@@ -32,10 +45,9 @@ public class TriggerCinematic : MonoBehaviour
 
     private void OnTimelineFinished(PlayableDirector obj)
     {
-        if (player != null && playerTargetPosition != null)
+        if (player1 )
         {
-            player.transform.position = playerTargetPosition.position;
-            player.SetActive(true);
+            player1.SetActive(true);
         }
 
         if (cameraObj != null)
@@ -57,5 +69,18 @@ public class TriggerCinematic : MonoBehaviour
         GameManager.instance.playerCanMove = true;
         audioSource.Play();
         musicCinematic.Stop();
+        cameraWA.SetActive(true);
+        player2.SetActive(true);
+        SwitchToNewTarget();
+    }
+
+    public void SwitchToNewTarget()
+    {
+        cineCamera.Follow = newTarget;
+    }
+
+    public void SwitchToPlayer()
+    {
+        cineCamera.Follow = playerTarget;
     }
 }
