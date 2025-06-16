@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10.987874, y: -6.285, z: 0.02175558}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1846931213631849337}
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e16c98e5550fd8479dc63e257e90eec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
   lifetime: 1
   destroyParticles: {fileID: 4884600931941368850, guid: bbb8aae9b6dd84843bf931af6b53c0b1, type: 3}
   trailParticles: {fileID: 711172490624103791}
@@ -161,8 +161,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.018, y: -0.039, z: -0}
-  m_LocalScale: {x: 1.4285713, y: 1.4285715, z: 1.4285715}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2.3, y: 2.3, z: 2.3}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3057720243536269550}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}

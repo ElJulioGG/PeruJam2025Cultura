@@ -27,6 +27,8 @@ public class TriggerCinematic : MonoBehaviour
     public AudioSource audioSource;
     public AudioSource musicCinematic;
 
+    public GameObject canvasUI;
+
     private bool hasPlayed = false;
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -72,6 +74,7 @@ public class TriggerCinematic : MonoBehaviour
         cameraWA.SetActive(true);
         player2.SetActive(true);
         SwitchToNewTarget();
+        canvasUI.SetActive(true);
     }
 
     public void SwitchToNewTarget()
