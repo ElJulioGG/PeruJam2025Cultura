@@ -95,7 +95,7 @@ public class EnemyStateMachine4 : MonoBehaviour
         foreach (Collider2D col in GetComponentsInChildren<Collider2D>())
             col.enabled = false;
 
-        PlayAnimation("UKUKUIdle");
+        PlayAnimation("MisayocIdle");
 
         float randomTorque = Random.Range(-10f, 10f);
         rb.AddTorque(randomTorque, ForceMode2D.Impulse);
@@ -113,12 +113,16 @@ public class EnemyStateMachine4 : MonoBehaviour
         }
 
         if (rb.linearVelocity.magnitude > 0.1f)
-            PlayAnimation("UkukuMove");
+            PlayAnimation("MisayocMove");
         else
-            PlayAnimation("UKUKUIdle");
+            PlayAnimation("MisayocIdle");
 
         if (!isAttacking)
+        {
             FlipSprite(rb.linearVelocity);
+            PlayAnimation("MisayocAtack");
+        }
+            
 
         if (player == null) return;
 
@@ -237,6 +241,7 @@ public class EnemyStateMachine4 : MonoBehaviour
 
     private IEnumerator RangedAttack()
     {
+        
         isAttacking = true;
         rb.linearVelocity = Vector2.zero;
 
@@ -263,16 +268,16 @@ public class EnemyStateMachine4 : MonoBehaviour
         AudioManager.instance.PlaySfx($"UkukuDash{dashIndex}");
 
         yield return new WaitForSeconds(0.2f);
-
+        PlayAnimation("MisayocAtack2");
         if (attackProjectilePrefab != null)
         {
             GameObject projectile = Instantiate(attackProjectilePrefab, transform.position, Quaternion.identity);
             Rigidbody2D projRb = projectile.GetComponent<Rigidbody2D>();
             if (projRb != null)
                 projRb.linearVelocity = direction * lungeSpeed;
-
+            
             // Scale up using DOTween
-            transform.DOScale(1.2f, 1f).SetEase(Ease.OutBack);
+            transform.DOScale(1.8f, 1f).SetEase(Ease.OutBack);
         }
 
         if (spriteRenderer != null)
@@ -289,7 +294,7 @@ public class EnemyStateMachine4 : MonoBehaviour
             Instantiate(defensiveProjectilePrefab, transform.position, Quaternion.identity);
 
             // Reset scale using DOTween
-            transform.DOScale(1f, 0.3f).SetEase(Ease.InOutQuad);
+            transform.DOScale(1.5f, 0.3f).SetEase(Ease.InOutQuad);
         }
 
         cooldownTimer = attackCooldown;
@@ -328,9 +333,9 @@ public class EnemyStateMachine4 : MonoBehaviour
     private void FlipSprite(Vector2 velocity)
     {
         if (velocity.x > 0.1f)
-            transform.localScale = new Vector3(1f, transform.localScale.y, transform.localScale.z);
+            transform.localScale = new Vector3(1.5f, transform.localScale.y, transform.localScale.z);
         else if (velocity.x < -0.1f)
-            transform.localScale = new Vector3(-1f, transform.localScale.y, transform.localScale.z);
+            transform.localScale = new Vector3(-1.5f, transform.localScale.y, transform.localScale.z);
     }
 
     private void PickNewWanderDirection()

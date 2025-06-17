@@ -36,7 +36,7 @@ public class PetFollower : MonoBehaviour
 
         transform.position = Vector3.Lerp(transform.position, targetPosition, followSpeed * Time.deltaTime);
 
-        transform.localRotation = direction >= 0 ? Quaternion.Euler(0, 0, 0) : Quaternion.Euler(0, 180, 0);
+       // transform.localRotation = direction >= 0 ? Quaternion.Euler(0, 0, 0) : Quaternion.Euler(0, 180, 0);
 
         lastPlayerX = player.position.x;
     }
