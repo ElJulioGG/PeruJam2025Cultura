@@ -275,8 +275,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 1756577361}
-  text: {fileID: 2048791778}
+  textIzq: {fileID: 0}
+  textCent: {fileID: 0}
+  textDer: {fileID: 0}
+  textoPresionar: {fileID: 0}
+  particulitas: {fileID: 0}
+  lightParticle: {fileID: 0}
   index: 0
+  ritualComplete: 0
 --- !u!114 &120425153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15929,7 +15935,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: -1347074948089814191, guid: b04c2ff71729f054599476d4df6b14c7, type: 3}
+  m_Sprite: {fileID: -1672981660100873633, guid: 960a9016590c23e4caacb27b05f19c7b, type: 3}
   m_Color: {r: 1, g: 0.7670406, b: 0.48584908, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -22596,7 +22602,7 @@ GameObject:
   - component: {fileID: 1637344081}
   - component: {fileID: 1637344080}
   m_Layer: 6
-  m_Name: UKUKU4
+  m_Name: MISAYOC
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
