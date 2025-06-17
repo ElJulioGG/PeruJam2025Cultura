@@ -1,117 +1,104 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+
 public class CanvasRitual : MonoBehaviour
 {
-    [SerializeField] private Image image; // Reference to the Image component
-    
-    [SerializeField] private TMP_Text text;
+    [Header("Visual Elements")]
+    [SerializeField] private Image image;
+    [SerializeField] private TMP_Text textIzq;
+    [SerializeField] private TMP_Text textCent;
+    [SerializeField] private TMP_Text textDer;
+
+    [Header("Particle Effects")]
+    public GameObject textoPresionar;
+    public GameObject particulitas;
+    public GameObject lightParticle;
+
+    [Header("Ritual Settings")]
     [SerializeField] private int index;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    private bool isInsideTrigger = false;
+    public bool ritualComplete = false;
+
     void Start()
     {
-        
+        textoPresionar.SetActive(false);
+        particulitas?.SetActive(false);
+        lightParticle?.SetActive(false);
     }
-    //[SerializeField] public bool LatigoPickup = false;
-    //[SerializeField] public bool MascaraPickup = false;
-    //[SerializeField] public bool CampanitasPickup = false;
-    //[SerializeField] public bool BolsaPikcup = false;
 
-    //[SerializeField] public bool ChumpiPickup = false;
-    //[SerializeField] public bool PututuPickup = false;
-    //[SerializeField] public bool MullyPickup = false;
-
-    //[SerializeField] public bool ChichaPickup = false;
-    //[SerializeField] public bool ConopasPickup = false;
-    //[SerializeField] public bool CuchilloPickup = false;
-    // Update is called once per frame
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        
-    }
     void Update()
     {
-        // Check if the ritual is complete and update the image and text accordingly
-            switch (index)
-            {
-                case 0: // Ritual 1
-                    if (GameManager.instance.LatigoPickup)
-                    {
-                        image.color = Color.green;
-                        text.text = "1/1";
-                    }
-                    break;
-                case 1: // Ritual 2
-                    if (GameManager.instance.MascaraPickup)
-                    {
-                        image.color = Color.green;
-                        text.text = "1/1";
-                    }
-                    break;
-                case 2: // Ritual 3
-                    if (GameManager.instance.CampanitasPickup)
-                    {
-                        image.color = Color.green;
-                        text.text = "1/1";
-                    }
-                    break;
-                case 3: // Ritual 4
-                    if (GameManager.instance.BolsaPikcup)
-                    {
-                        image.color = Color.green;
-                        text.text = "1/1";
-                    }
-                    break;
-                case 4: // Ritual 5
-                    if (GameManager.instance.ChumpiPickup)
-                    {
-                        image.color = Color.green;
-                        text.text = "1/1";
-                    }
-                    break;
-                case 5: // Ritual 6
-                    if (GameManager.instance.PututuPickup)
-                    {
-                        image.color = Color.green;
-                        text.text = "1/1";
-                    }
-                    break;
-                case 6: // Ritual 7
-                    if (GameManager.instance.MullyPickup)
-                    {
-                        image.color = Color.green;
-                        text.text = "1/1";
-                    }
-                    break;
-                case 7: // Ritual 8
-                    if (GameManager.instance.ChichaPickup)
-                    {
-                        image.color = Color.green;
-                        text.text = "1/1";
-                    }
-                    break;
-                case 8: // Ritual 9
-                    if (GameManager.instance.ConopasPickup)
-                    {
-                        image.color = Color.green;
-                        text.text = "1/1";
-                    }
-                    break;
-                case 9: // Ritual 10
-                    if (GameManager.instance.CuchilloPickup)
-                    {
-                        image.color = Color.green;
-                        text.text = "1/1";
-                    }
-                    break;
-                case 10: // Ritual 11   
-                    if (GameManager.instance.CocaPikcup)
-                    {
-                        image.color = Color.green;
-                        text.text = "1/1";
-                    }
-                    break;
-            }
+        UpdateTexts();
+
+        if (isInsideTrigger && Input.GetKeyDown(KeyCode.E) && ritualComplete)
+        {
+            EntregarRitual();
         }
-    
+    }
+
+    void UpdateTexts()
+    {
+        bool izq = false, cent = false, der = false;
+
+        // Evaluar recolección según index de ritual
+        switch (index)
+        {
+            case 0: // Ritual 1
+                izq = GameManager.instance.LatigoPickup;
+                cent = GameManager.instance.MascaraPickup;
+                der = GameManager.instance.CampanitasPickup;
+                break;
+            case 1: // Ritual 2
+                izq = GameManager.instance.BolsaPikcup;
+                cent = GameManager.instance.ChumpiPickup;
+                der = GameManager.instance.PututuPickup;
+                break;
+            case 2: // Ritual 3
+                izq = GameManager.instance.MullyPickup;
+                cent = GameManager.instance.ChichaPickup;
+                der = GameManager.instance.ConopasPickup;
+                break;
+            case 3: // Ritual 4
+                izq = GameManager.instance.CuchilloPickup;
+                cent = GameManager.instance.CocaPikcup;
+                der = GameManager.instance.LatigoPickup; // ejemplo repetido, cámbialo si deseas otro objeto
+                break;
+                // Puedes continuar agregando más rituales aquí
+        }
+
+        textIzq.text = izq ? "1/1" : "0/1";
+        textCent.text = cent ? "1/1" : "0/1";
+        textDer.text = der ? "1/1" : "0/1";
+
+        ritualComplete = izq && cent && der;
+    }
+
+    void EntregarRitual()
+    {
+        Debug.Log("Ritual entregado!");
+        textoPresionar.SetActive(false);
+        particulitas?.SetActive(true);
+        lightParticle?.SetActive(true);
+        // Aquí puedes poner una animación, cambiar sprite, sonido, etc.
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            isInsideTrigger = true;
+            textoPresionar.SetActive(true);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            isInsideTrigger = false;
+            textoPresionar.SetActive(false);
+        }
+    }
 }
