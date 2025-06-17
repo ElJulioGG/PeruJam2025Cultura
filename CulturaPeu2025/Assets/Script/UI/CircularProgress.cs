@@ -9,13 +9,15 @@ public class CircularProgress : MonoBehaviour
     public FadeTransition fadeTransition;
     public AudioSource audioSource;
 
+    [Header("Escena a cargar manualmente")]
+    public int sceneIndex;
     private bool transitioning = false;
 
     private void Update()
     {
         if (transitioning) return;
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Q))
         {
             if (!audioSource.isPlaying)
                 audioSource.Play();
@@ -29,7 +31,7 @@ public class CircularProgress : MonoBehaviour
             {
                 transitioning = true;
                 fadeTransition.FadeIn();
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(sceneIndex);
             }
         }
         else
@@ -42,5 +44,7 @@ public class CircularProgress : MonoBehaviour
             if (slider.value <= 0f && audioSource.isPlaying)
                 audioSource.Stop();
         }
+
+
     }
 }

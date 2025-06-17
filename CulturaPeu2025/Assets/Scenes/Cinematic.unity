@@ -1331,7 +1331,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mantener presionado espacio para saltar la cinematica
+  m_text: Mantener la Q presionado espacio para saltar la cinematica
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 72dc4c00d31db7c4dba0c7ac0aa7dec2, type: 2}
   m_sharedMaterial: {fileID: 5476590406273670786, guid: 72dc4c00d31db7c4dba0c7ac0aa7dec2, type: 2}
@@ -8535,8 +8535,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 735662377}
   fillSpeed: 1
-  fadeTransition: {fileID: 1117567880}
+  fadeTransition: {fileID: 1736773921}
   audioSource: {fileID: 735662379}
+  sceneIndex: 1
 --- !u!82 &735662379
 AudioSource:
   m_ObjectHideFlags: 0
