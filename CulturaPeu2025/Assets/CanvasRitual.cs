@@ -5,7 +5,6 @@ using UnityEngine.UI;
 public class CanvasRitual : MonoBehaviour
 {
     [Header("Visual Elements")]
-    [SerializeField] private Image image;
     [SerializeField] private TMP_Text textIzq;
     [SerializeField] private TMP_Text textCent;
     [SerializeField] private TMP_Text textDer;
@@ -21,11 +20,14 @@ public class CanvasRitual : MonoBehaviour
     private bool isInsideTrigger = false;
     public bool ritualComplete = false;
 
+    public AudioSource audioSource;
+
     void Start()
     {
         textoPresionar.SetActive(false);
         particulitas?.SetActive(false);
         lightParticle?.SetActive(false);
+        audioSource?.Stop();
     }
 
     void Update()
@@ -47,23 +49,23 @@ public class CanvasRitual : MonoBehaviour
         {
             case 0: // Ritual 1
                 izq = GameManager.instance.LatigoPickup;
-                cent = GameManager.instance.MascaraPickup;
-                der = GameManager.instance.CampanitasPickup;
+                cent = GameManager.instance.CampanitasPickup;
+                der = GameManager.instance.BolsaPikcup;
                 break;
             case 1: // Ritual 2
-                izq = GameManager.instance.BolsaPikcup;
-                cent = GameManager.instance.ChumpiPickup;
-                der = GameManager.instance.PututuPickup;
+                izq = GameManager.instance.ChumpiPickup;
+                cent = GameManager.instance.PututuPickup;
+                der = GameManager.instance.MullyPickup;
                 break;
             case 2: // Ritual 3
-                izq = GameManager.instance.MullyPickup;
-                cent = GameManager.instance.ChichaPickup;
-                der = GameManager.instance.ConopasPickup;
+                izq = GameManager.instance.ChichaPickup;
+                cent = GameManager.instance.ConopasPickup;
+                der = GameManager.instance.CuchilloPickup;
                 break;
             case 3: // Ritual 4
-                izq = GameManager.instance.CuchilloPickup;
-                cent = GameManager.instance.CocaPikcup;
-                der = GameManager.instance.LatigoPickup; // ejemplo repetido, cámbialo si deseas otro objeto
+                izq = GameManager.instance.MascaraPickup;
+                cent = GameManager.instance.ChumpiPickup;
+                der = GameManager.instance.CocaPikcup; // ejemplo repetido, cámbialo si deseas otro objeto
                 break;
                 // Puedes continuar agregando más rituales aquí
         }
@@ -81,6 +83,7 @@ public class CanvasRitual : MonoBehaviour
         textoPresionar.SetActive(false);
         particulitas?.SetActive(true);
         lightParticle?.SetActive(true);
+        audioSource?.Play();
         // Aquí puedes poner una animación, cambiar sprite, sonido, etc.
     }
 
