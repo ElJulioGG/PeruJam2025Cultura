@@ -564,7 +564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 632, y: -890}
+  m_AnchoredPosition: {x: 717, y: -790}
   m_SizeDelta: {x: 400, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &87287918
@@ -587,7 +587,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Extends:
+  m_text: 'Externs:
 
 '
   m_isRightToLeft: 0
@@ -623,7 +623,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -16107,7 +16107,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &393194329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22315,7 +22315,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 632, y: -890}
+  m_AnchoredPosition: {x: 717, y: -790}
   m_SizeDelta: {x: 400, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &811310410
@@ -22338,13 +22338,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '
-
-    Bla
-
-    bla
-
-    bla'
+  m_text: "\nEduardo Agni\r\nKamil Kopowski\r\nAdinkra Audio\r\nYhomar Frhiss Cueva
+    Oviedo\r\nLakshmiraman Oza\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 72dc4c00d31db7c4dba0c7ac0aa7dec2, type: 2}
   m_sharedMaterial: {fileID: 5476590406273670786, guid: 72dc4c00d31db7c4dba0c7ac0aa7dec2, type: 2}
@@ -22378,7 +22373,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -23621,7 +23616,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 363, y: -890}
+  m_AnchoredPosition: {x: 363, y: -790}
   m_SizeDelta: {x: 400, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1143186895
@@ -23644,9 +23639,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Musics:
-
-'
+  m_text: 'ExternS:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 72dc4c00d31db7c4dba0c7ac0aa7dec2, type: 2}
   m_sharedMaterial: {fileID: 5476590406273670786, guid: 72dc4c00d31db7c4dba0c7ac0aa7dec2, type: 2}
@@ -29127,7 +29120,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7022234961371635939, guid: 0116fe1d68a7a744091546ddc1ad7735, type: 3}
+  m_Sprite: {fileID: -7949278711051747560, guid: bedd1111ac3e4044798755fc36309a51, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -39111,7 +39104,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7022234961371635939, guid: 0116fe1d68a7a744091546ddc1ad7735, type: 3}
+  m_Sprite: {fileID: 3103788729560607227, guid: e39331f98d8e9f444b3bf69a0303cc1f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -39156,15 +39149,15 @@ RectTransform:
   m_GameObject: {fileID: 1630446816}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1954309184}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 107, y: -24.5}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 158, y: 11.1}
+  m_SizeDelta: {x: 1800, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1630446818
 MonoBehaviour:
@@ -39178,7 +39171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 0e4fbab35e1ccff469d7429a9cd1fb7e, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -39186,7 +39179,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7022234961371635939, guid: 0116fe1d68a7a744091546ddc1ad7735, type: 3}
+  m_Sprite: {fileID: 8237435219312010080, guid: b018cdc276b55c94dbd42657a485399d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -49098,7 +49091,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7022234961371635939, guid: 0116fe1d68a7a744091546ddc1ad7735, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5386337b121a3864db4ac990f6faaca5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -50624,7 +50617,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 363, y: -890}
+  m_AnchoredPosition: {x: 363, y: -790}
   m_SizeDelta: {x: 400, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2071261028
@@ -50649,9 +50642,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: '
 
-    BossMAN
+    freesound_community
 
-    TIC_SIDE'
+    u_xjrmmgxfru
+
+    Krzysztof Szymanski
+
+    LIECIO
+
+    Alban_Gogh'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 72dc4c00d31db7c4dba0c7ac0aa7dec2, type: 2}
   m_sharedMaterial: {fileID: 5476590406273670786, guid: 72dc4c00d31db7c4dba0c7ac0aa7dec2, type: 2}
