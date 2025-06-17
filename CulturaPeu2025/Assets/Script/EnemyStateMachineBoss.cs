@@ -393,8 +393,23 @@ public class EnemyStateMachineBoss : MonoBehaviour
         }
 
         PlayAnimation("BossDeath");
+        LoadSceneCinematic();
     }
+    public void LoadSceneCinematic()
+    {
+        StartCoroutine(LoadSceneWithDelay("CinematicaFinal"));
 
+        AudioManager.instance.musicSource.Stop();
+
+    }
+    private IEnumerator LoadSceneWithDelay(string sceneName)
+    {
+        yield return new WaitForSeconds(5f);
+        AudioManager.instance.sfxSource.Stop();
+        AudioManager.instance.UISource.Stop();
+        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+
+    }
     private void FlipSprite(Vector2 velocity)
     {
         if (velocity.x > 0.1f)

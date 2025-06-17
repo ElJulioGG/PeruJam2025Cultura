@@ -1,0 +1,708 @@
+fileFormatVersion: 2
+guid: a0ab7dda6c4ced54f9947957a8df7b96
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9156552743891991923
+    second: BOSS_Ukuku_Death_0
+  - first:
+      213: 3756546085392173777
+    second: BOSS_Ukuku_Death_1
+  - first:
+      213: -4469879073382271895
+    second: BOSS_Ukuku_Death_2
+  - first:
+      213: 8779960742839841442
+    second: BOSS_Ukuku_Death_3
+  - first:
+      213: 1981167287466270914
+    second: BOSS_Ukuku_Death_4
+  - first:
+      213: -8646748598564300099
+    second: BOSS_Ukuku_Death_5
+  - first:
+      213: 3926129328503779481
+    second: BOSS_Ukuku_Death_6
+  - first:
+      213: -3601836013441385121
+    second: BOSS_Ukuku_Death_7
+  - first:
+      213: -4418949602792058354
+    second: BOSS_Ukuku_Death_8
+  - first:
+      213: 952722087613774729
+    second: BOSS_Ukuku_Death_9
+  - first:
+      213: 1950514316589689323
+    second: BOSS_Ukuku_Death_10
+  - first:
+      213: 6486641476460811704
+    second: BOSS_Ukuku_Death_11
+  - first:
+      213: 5334391615645435850
+    second: BOSS_Ukuku_Death_12
+  - first:
+      213: -7688988748732912751
+    second: BOSS_Ukuku_Death_13
+  - first:
+      213: 5519633379392798260
+    second: BOSS_Ukuku_Death_14
+  - first:
+      213: -4733991409685536542
+    second: BOSS_Ukuku_Death_15
+  - first:
+      213: 5090966715772968714
+    second: BOSS_Ukuku_Death_16
+  - first:
+      213: 5635022883489409004
+    second: BOSS_Ukuku_Death_17
+  - first:
+      213: -871307200058086452
+    second: BOSS_Ukuku_Death_18
+  - first:
+      213: 1283556895475836742
+    second: BOSS_Ukuku_Death_19
+  - first:
+      213: -5053660373092897721
+    second: BOSS_Ukuku_Death_20
+  - first:
+      213: 5320260567293319364
+    second: BOSS_Ukuku_Death_21
+  - first:
+      213: -5663948062214852121
+    second: BOSS_Ukuku_Death_22
+  - first:
+      213: -3844754642235649081
+    second: BOSS_Ukuku_Death_23
+  - first:
+      213: -3526287385609331814
+    second: BOSS_Ukuku_Death_24
+  - first:
+      213: -6429155671032652151
+    second: BOSS_Ukuku_Death_25
+  - first:
+      213: -7071621034446157498
+    second: BOSS_Ukuku_Death_26
+  - first:
+      213: 3762441015361367641
+    second: BOSS_Ukuku_Death_27
+  - first:
+      213: -8148750285865739266
+    second: BOSS_Ukuku_Death_28
+  - first:
+      213: -1894616888127464578
+    second: BOSS_Ukuku_Death_29
+  - first:
+      213: -4177237224589823470
+    second: BOSS_Ukuku_Death_30
+  - first:
+      213: 176341585792470930
+    second: BOSS_Ukuku_Death_31
+  - first:
+      213: -4273689913476211987
+    second: BOSS_Ukuku_Death_32
+  - first:
+      213: -7294834970991227344
+    second: BOSS_Ukuku_Death_33
+  - first:
+      213: 5804113233563890126
+    second: BOSS_Ukuku_Death_34
+  - first:
+      213: -2233680303863581380
+    second: BOSS_Ukuku_Death_35
+  - first:
+      213: -6027099182833199371
+    second: BOSS_Ukuku_Death_36
+  - first:
+      213: -7269233031614351559
+    second: BOSS_Ukuku_Death_37
+  - first:
+      213: 3515943578501733096
+    second: BOSS_Ukuku_Death_38
+  - first:
+      213: -8826499456998020357
+    second: BOSS_Ukuku_Death_39
+  - first:
+      213: 9176702592033601721
+    second: BOSS_Ukuku_Death_40
+  - first:
+      213: -6709618394454603461
+    second: BOSS_Ukuku_Death_41
+  - first:
+      213: 2068403993653482605
+    second: BOSS_Ukuku_Death_42
+  - first:
+      213: -1488631986585635303
+    second: BOSS_Ukuku_Death_43
+  - first:
+      213: 1634720534347030840
+    second: BOSS_Ukuku_Death_44
+  - first:
+      213: 7707906697450048968
+    second: BOSS_Ukuku_Death_45
+  - first:
+      213: -8810471726768211233
+    second: BOSS_Ukuku_Death_46
+  - first:
+      213: 5807287823265067804
+    second: BOSS_Ukuku_Death_47
+  - first:
+      213: 3574597188058098968
+    second: BOSS_Ukuku_Death_48
+  - first:
+      213: -5368593188188491351
+    second: BOSS_Ukuku_Death_49
+  - first:
+      213: 5399534424636424040
+    second: BOSS_Ukuku_Death_50
+  - first:
+      213: 7271347994164018530
+    second: BOSS_Ukuku_Death_51
+  - first:
+      213: -1353841565290805127
+    second: BOSS_Ukuku_Death_52
+  - first:
+      213: -380316856597117388
+    second: BOSS_Ukuku_Death_53
+  - first:
+      213: 8008364147945867521
+    second: BOSS_Ukuku_Death_54
+  - first:
+      213: -6145820384556251234
+    second: BOSS_Ukuku_Death_55
+  - first:
+      213: -8094795082222328801
+    second: BOSS_Ukuku_Death_56
+  - first:
+      213: -3218509365066064010
+    second: BOSS_Ukuku_Death_57
+  - first:
+      213: -3415188690632997590
+    second: BOSS_Ukuku_Death_58
+  - first:
+      213: -7114875372337220045
+    second: BOSS_Ukuku_Death_59
+  - first:
+      213: 6096177845020041485
+    second: BOSS_Ukuku_Death_60
+  - first:
+      213: -7627322731858730410
+    second: BOSS_Ukuku_Death_61
+  - first:
+      213: -8278257564801964653
+    second: BOSS_Ukuku_Death_62
+  - first:
+      213: 8068971420347870482
+    second: BOSS_Ukuku_Death_63
+  - first:
+      213: 4360678858101491304
+    second: BOSS_Ukuku_Death_64
+  - first:
+      213: 2654835242957802940
+    second: BOSS_Ukuku_Death_65
+  - first:
+      213: 2082909979877585290
+    second: BOSS_Ukuku_Death_66
+  - first:
+      213: -8662253956709722779
+    second: BOSS_Ukuku_Death_67
+  - first:
+      213: 5224893799411207990
+    second: BOSS_Ukuku_Death_68
+  - first:
+      213: -1991668408871036137
+    second: BOSS_Ukuku_Death_69
+  - first:
+      213: -745505746493774875
+    second: BOSS_Ukuku_Death_70
+  - first:
+      213: -2815968440883045202
+    second: BOSS_Ukuku_Death_71
+  - first:
+      213: 2310413556027270689
+    second: BOSS_Ukuku_Death_72
+  - first:
+      213: 931282601205180403
+    second: BOSS_Ukuku_Death_73
+  - first:
+      213: -1162252052569047179
+    second: BOSS_Ukuku_Death_74
+  - first:
+      213: -8791957963163590908
+    second: BOSS_Ukuku_Death_75
+  - first:
+      213: 8225490653003637898
+    second: BOSS_Ukuku_Death_76
+  - first:
+      213: -7108662130985745414
+    second: BOSS_Ukuku_Death_77
+  - first:
+      213: 7976881958412273796
+    second: BOSS_Ukuku_Death_78
+  - first:
+      213: 3230528646651172186
+    second: BOSS_Ukuku_Death_79
+  - first:
+      213: -4990094946424930938
+    second: BOSS_Ukuku_Death_80
+  - first:
+      213: 7312816961356167698
+    second: BOSS_Ukuku_Death_81
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82803dfac36de080800000000000000
+      internalID: -9156552743891991923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Death_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da4f2af2cee12430800000000000000
+      internalID: 3756546085392173777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Death_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964f81a4aacc7f1c0800000000000000
+      internalID: -4469879073382271895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Death_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2f7d207cfa8d970800000000000000
+      internalID: 8779960742839841442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Death_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c02d0ab6258e7b10800000000000000
+      internalID: 1981167287466270914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Death_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbad77846f3900880800000000000000
+      internalID: -8646748598564300099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Death_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990f5bf92d96c7630800000000000000
+      internalID: 3926129328503779481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Death_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5dfd97aa35b30ec0800000000000000
+      internalID: -3601836013441385121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Death_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02d935bfbcbca2c0800000000000000
+      internalID: -4418949602792058354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Death_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b33e1e0bfb83d00800000000000000
+      internalID: 952722087613774729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Death_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be964a9cf6e911b10800000000000000
+      internalID: 1950514316589689323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Death_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b513cd1e0e250a50800000000000000
+      internalID: 6486641476460811704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Death_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac74e5f59e0970a40800000000000000
+      internalID: 5334391615645435850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Death_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bacc598793b4590800000000000000
+      internalID: -7688988748732912751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS_Ukuku_Death_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43eb815705da99c40800000000000000
+      internalID: 5519633379392798260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ddf11924f5839ce41b3c6021a317eb5a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BOSS_Ukuku_Death_0: -9156552743891991923
+      BOSS_Ukuku_Death_1: 3756546085392173777
+      BOSS_Ukuku_Death_10: 1950514316589689323
+      BOSS_Ukuku_Death_11: 6486641476460811704
+      BOSS_Ukuku_Death_12: 5334391615645435850
+      BOSS_Ukuku_Death_13: -7688988748732912751
+      BOSS_Ukuku_Death_14: 5519633379392798260
+      BOSS_Ukuku_Death_2: -4469879073382271895
+      BOSS_Ukuku_Death_3: 8779960742839841442
+      BOSS_Ukuku_Death_4: 1981167287466270914
+      BOSS_Ukuku_Death_5: -8646748598564300099
+      BOSS_Ukuku_Death_6: 3926129328503779481
+      BOSS_Ukuku_Death_7: -3601836013441385121
+      BOSS_Ukuku_Death_8: -4418949602792058354
+      BOSS_Ukuku_Death_9: 952722087613774729
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

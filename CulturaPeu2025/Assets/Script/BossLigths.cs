@@ -21,29 +21,29 @@ public class BossLigths : MonoBehaviour
         if(boss.health < boss.baseHealth* 0.75)
         {
             mainLight.color = Color.green;
-            lights[0].color = Color.green;
-            lights[0].intensity = 0.2f;
+            //lights[0].color = Color.green;
+            //lights[0].intensity = 0.2f;
             // Set the alpha to 0.2 for a dim light effect
 
         }
         if (boss.health < boss.baseHealth * 0.5)
         {
             mainLight.color = Color.yellow;
-            lights[1].color = Color.green;
-            // Set the alpha to 0.2 for a dim light effect
-            lights[1].intensity = 0.2f; // Set the alpha to 0.2 for a dim light effect
+            //lights[1].color = Color.green;
+            //// Set the alpha to 0.2 for a dim light effect
+            //lights[1].intensity = 0.2f; // Set the alpha to 0.2 for a dim light effect
         }
         if (boss.health < boss.baseHealth * 0.25)
         {
             mainLight.color = Color.red;
-            lights[2].color = Color.green;
-            lights[2].intensity = 0.2f;
+            //lights[2].color = Color.green;
+            //lights[2].intensity = 0.2f;
         }
         if (boss.health <= 0)
         {
-
-            lights[3].color = Color.green;
-            lights[3].intensity = 0.2f;
+            mainLight.color = Color.black;
+            //lights[3].color = Color.green;
+            //lights[3].intensity = 0.2f;
 
         }
         print("Boss Health: " + boss.health);
