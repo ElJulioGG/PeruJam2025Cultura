@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Gameplay.unity
     guid: ca406e7b13df4224183c9b072a5e454a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FinalBoss.unity
     guid: c122ba36034f02c4f934f016cb7846cc
   m_configObjects:
