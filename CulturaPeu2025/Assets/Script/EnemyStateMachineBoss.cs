@@ -397,7 +397,7 @@ public class EnemyStateMachineBoss : MonoBehaviour
     }
     public void LoadSceneCinematic()
     {
-        StartCoroutine(LoadSceneWithDelay("CinematicaFinal"));
+        StartCoroutine(LoadSceneWithDelay("Menu"));
 
         AudioManager.instance.musicSource.Stop();
 
