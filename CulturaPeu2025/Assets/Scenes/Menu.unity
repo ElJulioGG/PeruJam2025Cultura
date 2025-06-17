@@ -16910,7 +16910,9 @@ MonoBehaviour:
 
     Bossman
 
-    Zaber'
+    Zaber
+
+    Tic_Side'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 72dc4c00d31db7c4dba0c7ac0aa7dec2, type: 2}
   m_sharedMaterial: {fileID: 5476590406273670786, guid: 72dc4c00d31db7c4dba0c7ac0aa7dec2, type: 2}
