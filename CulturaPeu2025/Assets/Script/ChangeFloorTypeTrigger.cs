@@ -16,4 +16,15 @@ public class ChangeFloorTypeTrigger : MonoBehaviour
 
         }
     }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            if (GameManager.instance != null)
+            {
+                GameManager.instance.floorType = 1;
+            }
+        }
+    }
 }
