@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ROLL_cinematica_0: 4440105691413253566
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
