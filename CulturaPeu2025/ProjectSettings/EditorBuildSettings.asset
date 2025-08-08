@@ -6,14 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Cinematic.unity
-    guid: 04c23bca9800b2f43b9ad898d0a0f02a
-  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: f391e9b456f68634dbef07cdb43803f1
   - enabled: 1
-    path: Assets/Scenes/Cinematic0.unity
-    guid: 08f736e3618dfb84d8afd73b0b6727b1
+    path: Assets/Scenes/NE.unity
+    guid: a689bd6aa2f97944eac35a58e5ea9261
   - enabled: 1
     path: Assets/Scenes/Cinematic1.unity
     guid: 5166335538ebe7a42b201257b6fd367a
@@ -26,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinalBoss.unity
     guid: c122ba36034f02c4f934f016cb7846cc
+  - enabled: 0
+    path: Assets/Scenes/Cinematic.unity
+    guid: 04c23bca9800b2f43b9ad898d0a0f02a
+  - enabled: 0
+    path: Assets/Scenes/Cinematic0.unity
+    guid: 08f736e3618dfb84d8afd73b0b6727b1
   - enabled: 0
     path: Assets/Scenes/ICONO.unity
     guid: 2408595428514fc44862e7304d4d42a3

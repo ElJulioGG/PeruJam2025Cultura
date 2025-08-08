@@ -53,5 +53,8 @@ TagManager:
   - name: Effects
     uniqueID: 2822532239
     locked: 0
+  - name: SORT
+    uniqueID: 3017074261
+    locked: 0
   m_RenderingLayers:
   - Default
