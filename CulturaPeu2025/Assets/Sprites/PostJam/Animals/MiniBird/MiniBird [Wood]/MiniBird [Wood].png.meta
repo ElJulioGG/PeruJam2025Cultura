@@ -129,6 +129,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -409,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MiniBird [Wood]_0: 494628997420918334
+      MiniBird [Wood]_1: 1124651463495133525
+      MiniBird [Wood]_10: 1430250229125569983
+      MiniBird [Wood]_11: 8432414759239405983
+      MiniBird [Wood]_2: 8432565810080833874
+      MiniBird [Wood]_3: 5703097240156841653
+      MiniBird [Wood]_4: -6249208672500887036
+      MiniBird [Wood]_5: 8151029394153009396
+      MiniBird [Wood]_6: 5611045606047381166
+      MiniBird [Wood]_7: 8202624299018741544
+      MiniBird [Wood]_8: -4331955512010913529
+      MiniBird [Wood]_9: 7311490524171139585
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

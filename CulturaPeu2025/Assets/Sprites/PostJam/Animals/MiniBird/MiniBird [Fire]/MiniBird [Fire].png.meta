@@ -129,6 +129,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -409,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MiniBird [Fire]_0: -9190458645810729271
+      MiniBird [Fire]_1: 4777619613104549703
+      MiniBird [Fire]_10: 5083870201554543850
+      MiniBird [Fire]_11: 4282943708270087398
+      MiniBird [Fire]_2: 55151881678692742
+      MiniBird [Fire]_3: 5927611781018399335
+      MiniBird [Fire]_4: -5731810485320251353
+      MiniBird [Fire]_5: -7251272290758444708
+      MiniBird [Fire]_6: -7372970750264912959
+      MiniBird [Fire]_7: 7418990787147386015
+      MiniBird [Fire]_8: 3806714897908453247
+      MiniBird [Fire]_9: 2710255439940700042
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -129,6 +129,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -409,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MiniBird [Earth]_0: 3450809958545954339
+      MiniBird [Earth]_1: -1188436141000894698
+      MiniBird [Earth]_10: -792350401304185931
+      MiniBird [Earth]_11: 5277623434700339175
+      MiniBird [Earth]_2: -8564359744532499878
+      MiniBird [Earth]_3: -6986247298985241835
+      MiniBird [Earth]_4: 7472933877639144027
+      MiniBird [Earth]_5: 7433922387080044189
+      MiniBird [Earth]_6: -9179070224360766931
+      MiniBird [Earth]_7: -4766210901912107726
+      MiniBird [Earth]_8: 249295833459394543
+      MiniBird [Earth]_9: 9038027973354605160
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

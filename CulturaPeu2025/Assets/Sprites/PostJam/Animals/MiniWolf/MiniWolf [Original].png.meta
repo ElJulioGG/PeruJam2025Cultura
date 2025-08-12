@@ -234,6 +234,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1284,7 +1297,54 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MiniWolf [Original]_0: 3682440862765608768
+      MiniWolf [Original]_1: 6777358351484017727
+      MiniWolf [Original]_10: 5381062475836850256
+      MiniWolf [Original]_11: -441870261138756741
+      MiniWolf [Original]_12: -6484023861850721297
+      MiniWolf [Original]_13: -722866791080736227
+      MiniWolf [Original]_14: -6435610095093720191
+      MiniWolf [Original]_15: 9170581584756146179
+      MiniWolf [Original]_16: 4040542473974341178
+      MiniWolf [Original]_17: 7865567916842590982
+      MiniWolf [Original]_18: 5511476723414312459
+      MiniWolf [Original]_19: 4939121245097769102
+      MiniWolf [Original]_2: 1752515624988156573
+      MiniWolf [Original]_20: 3289365496801495226
+      MiniWolf [Original]_21: 538059971737718795
+      MiniWolf [Original]_22: -9075210078757912304
+      MiniWolf [Original]_23: 3295006371227335827
+      MiniWolf [Original]_24: 4234661878012496439
+      MiniWolf [Original]_25: 654691746850789237
+      MiniWolf [Original]_26: 9210716801906816372
+      MiniWolf [Original]_27: 4306350711894461116
+      MiniWolf [Original]_28: -748621568650526983
+      MiniWolf [Original]_29: 4113065154942863236
+      MiniWolf [Original]_3: -844793018169536888
+      MiniWolf [Original]_30: 5788140432619000244
+      MiniWolf [Original]_31: -8293343776559915474
+      MiniWolf [Original]_32: 8105239299702055761
+      MiniWolf [Original]_33: 8031013629180128106
+      MiniWolf [Original]_34: 4386025366004162542
+      MiniWolf [Original]_35: -2810838398516821746
+      MiniWolf [Original]_36: 3612279319170683309
+      MiniWolf [Original]_37: 4055655371585376599
+      MiniWolf [Original]_38: 2520747224616155367
+      MiniWolf [Original]_39: -4869176822910052890
+      MiniWolf [Original]_4: 2405002591834299000
+      MiniWolf [Original]_40: -258006374288744870
+      MiniWolf [Original]_41: -919827137097666328
+      MiniWolf [Original]_42: -5319196663265803543
+      MiniWolf [Original]_43: 8506684990378768319
+      MiniWolf [Original]_44: 4668768189028490203
+      MiniWolf [Original]_45: 4905253656440760880
+      MiniWolf [Original]_46: -4447129305923500590
+      MiniWolf [Original]_5: 2250842349712931609
+      MiniWolf [Original]_6: 9125697100644415922
+      MiniWolf [Original]_7: 8044456067173211043
+      MiniWolf [Original]_8: -6436367706553256185
+      MiniWolf [Original]_9: 2728382921767109057
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
