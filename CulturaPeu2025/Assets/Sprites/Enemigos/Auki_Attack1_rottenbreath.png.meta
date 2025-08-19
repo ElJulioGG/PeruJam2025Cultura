@@ -132,6 +132,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -434,7 +447,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Auki_Attack1_rottenbreath_0: -2129300720155979686
+      Auki_Attack1_rottenbreath_1: 5481134020609675389
+      Auki_Attack1_rottenbreath_10: 1559894173783850166
+      Auki_Attack1_rottenbreath_11: 8227115414906118297
+      Auki_Attack1_rottenbreath_12: -3319099121652129083
+      Auki_Attack1_rottenbreath_2: -2298388825335220795
+      Auki_Attack1_rottenbreath_3: 7226946822416455
+      Auki_Attack1_rottenbreath_4: 5734318073744561321
+      Auki_Attack1_rottenbreath_5: -2394800684000417183
+      Auki_Attack1_rottenbreath_6: 3386645784789661600
+      Auki_Attack1_rottenbreath_7: -689756403113192197
+      Auki_Attack1_rottenbreath_8: -6332446348547540387
+      Auki_Attack1_rottenbreath_9: -2285116407706351199
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

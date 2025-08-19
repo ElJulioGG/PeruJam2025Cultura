@@ -269,12 +269,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120425150}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a72e9188ee9a2244b2487716f6bd392, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 1756577361}
   textIzq: {fileID: 0}
   textCent: {fileID: 0}
   textDer: {fileID: 0}
@@ -283,6 +282,7 @@ MonoBehaviour:
   lightParticle: {fileID: 0}
   index: 0
   ritualComplete: 0
+  audioSource: {fileID: 0}
 --- !u!114 &120425153
 MonoBehaviour:
   m_ObjectHideFlags: 0
