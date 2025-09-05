@@ -5,7 +5,7 @@ using System.Collections;
 public class Movement : MonoBehaviour
 {
     [Header("Movement Settings")]
-    [SerializeField] private float maxSpeed = 5f;
+    [SerializeField] public float maxSpeed = 5f;
     [SerializeField] private float rollForce = 10f;
     [SerializeField] private float rollDuration = 0.3f;
     [SerializeField] private float rollCooldown = 1f;
