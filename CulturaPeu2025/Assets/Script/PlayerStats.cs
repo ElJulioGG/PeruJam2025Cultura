@@ -133,12 +133,12 @@ public class PlayerStats : MonoBehaviour
         }
         if (!GameManager.instance.playerHasWeapon)
         {
-                weapon.SetActive(false);
+            weapon.SetActive(false);
         }
         else
         {
-            
-                weapon.SetActive(true);
+
+            weapon.SetActive(true);
         }
 
     }

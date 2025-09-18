@@ -10,6 +10,7 @@ TagManager:
   - Pickup
   - ShieldHeart
   - Weapon
+  - Wall
   layers:
   - Default
   - TransparentFX

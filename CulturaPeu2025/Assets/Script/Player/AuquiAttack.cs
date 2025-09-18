@@ -21,7 +21,7 @@ public class AuquiAttack : MonoBehaviour
         {
             PS1.Play();
             PS2.Play();
-            bool isAttack2 = enemy.GetComponent<Animator>().GetBool(enemy.attack2Bool);
+            bool isAttack2 = enemy.GetComponent<Animator>().GetInteger("attackType") == 2;
 
             if (isAttack2)
             {
