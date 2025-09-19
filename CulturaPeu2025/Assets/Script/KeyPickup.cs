@@ -1,18 +1,25 @@
 using UnityEngine;
 using DG.Tweening;
+using System.Collections;
 
 public class KeyPickup : MonoBehaviour
 {
     [SerializeField] private int itemIndex;
+    [SerializeField] private float freezeTime = 0.8f; // Tiempo total del efecto
+    [SerializeField] private float slowMotionFactor = 0.1f; // Velocidad durante slow motion
+    [SerializeField] private float slowMotionDelay = 1.5f; // Tiempo antes de activar slow motion
 
     private bool isPickedUp = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (isPickedUp) return; // Prevent double-trigger
+        if (isPickedUp) return;
         if (collision.CompareTag("Player"))
         {
             isPickedUp = true;
+
+            // Iniciar el slow motion después del delay
+            StartCoroutine(StartSlowMotionAfterDelay());
 
             // Play pickup sound
             AudioManager.instance.PlaySfx("Pickup");
@@ -39,5 +46,48 @@ public class KeyPickup : MonoBehaviour
                 .SetEase(Ease.InBack)
                 .OnComplete(() => Destroy(gameObject));
         }
+    }
+
+    private IEnumerator StartSlowMotionAfterDelay()
+    {
+        // Esperar el delay antes de activar el slow motion
+        yield return new WaitForSeconds(slowMotionDelay);
+
+        // Iniciar el efecto de slow motion
+        StartCoroutine(FreezeEffect());
+    }
+
+    private IEnumerator FreezeEffect()
+    {
+        // Slow motion inicial
+        Time.timeScale = slowMotionFactor;
+        Time.fixedDeltaTime = 0.02f * Time.timeScale; // Ajustar fixed delta time
+
+        // Congelar completamente por un breve momento
+        yield return new WaitForSecondsRealtime(0.1f);
+        Time.timeScale = 0f;
+
+        // Mantener freeze
+        yield return new WaitForSecondsRealtime(0.2f);
+
+        // Slow motion de regreso
+        Time.timeScale = slowMotionFactor;
+        yield return new WaitForSecondsRealtime(0.1f);
+
+        // Restaurar tiempo normal gradualmente
+        float timer = 0f;
+        float duration = 0.3f;
+
+        while (timer < duration)
+        {
+            timer += Time.unscaledDeltaTime;
+            Time.timeScale = Mathf.Lerp(slowMotionFactor, 1f, timer / duration);
+            Time.fixedDeltaTime = 0.02f * Time.timeScale;
+            yield return null;
+        }
+
+        // Asegurar valores finales
+        Time.timeScale = 1f;
+        Time.fixedDeltaTime = 0.02f;
     }
 }
