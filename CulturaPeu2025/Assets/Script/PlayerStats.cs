@@ -14,7 +14,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private GameObject[] bloodSplatterPrefabs;
     public static List<GameObject> allSplatters = new List<GameObject>();
     [SerializeField] public bool usingPowerUp;
-    [SerializeField] private GameObject weapon;
+    public GameObject weapon;
     [SerializeField] private GameObject canvasGameOver;
     [Header("Visual Damage Shake")]
     [SerializeField] private Transform spriteTransform;
@@ -142,7 +142,16 @@ public class PlayerStats : MonoBehaviour
         }
 
     }
-
+    public bool RemoveShield()
+    {
+        if (shieldCount > 0)
+        {
+            shieldCount--;
+            UpdateShieldVisuals();
+            return true;
+        }
+        return false;
+    }
     public void SetRollingState(bool rolling)
     {
         isRolling = rolling;

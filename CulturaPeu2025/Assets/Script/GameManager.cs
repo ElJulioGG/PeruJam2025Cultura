@@ -79,6 +79,8 @@ public class GameManager : MonoBehaviour
     public void setPlayerCanMove(bool newState)
     {
         playerCanMove = newState;
+        playerCanAction = newState; // Asegura que ambas se sincronicen
+
     }
 
     public void SetCheckpoint(Vector3 checkpointPos)
