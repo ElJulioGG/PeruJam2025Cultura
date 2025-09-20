@@ -38,13 +38,13 @@ public class EnemyStateMachineBoss : MonoBehaviour
 
     [Header("Special Projectile Chance")]
     [SerializeField] private GameObject rareAttackPrefab;
-    [SerializeField][Range(0f, 1f)] private float rareProjectileChance = 0.2f;
+    [SerializeField][Range(0f, 1f)] private float rareProjectileChance = 0.3f;
 
     [Header("Idle Settings")]
-    [SerializeField] private float idleTimeBeforeAttack = 5f;
+    [SerializeField] private float idleTimeBeforeAttack = 3f;
 
     [Header("Attack Settings")]
-    [SerializeField] private float attackCooldown = 3f;
+    [SerializeField] private float attackCooldown = 2.2f;
     [SerializeField] private Vector3 attackOffset = new Vector3(0, 1f, 0);
     [SerializeField] private Vector3 attackOffset2 = new Vector3(0, 1f, 0);
     [SerializeField] private string jumpStartAnim = "BossJump1";
@@ -153,8 +153,8 @@ public class EnemyStateMachineBoss : MonoBehaviour
         PlayAnimation(burstAttackAnim);
 
         GameObject[] attackOptions = { attackPrefab, attackPrefab2, attackPrefab3, attackPrefab4, iceAtack };
-        int totalProjectiles = 6;
-        float timeBetweenShots = 0.25f;
+        int totalProjectiles = 10;
+        float timeBetweenShots = 0.2f;
 
         for (int i = 0; i < totalProjectiles; i++)
         {
@@ -187,7 +187,7 @@ public class EnemyStateMachineBoss : MonoBehaviour
             }
         }
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.4f);
         isAttacking = false;
         PlayAnimation("BossIdle");
         ChangeState(EnemyState.Idle);
@@ -198,7 +198,7 @@ public class EnemyStateMachineBoss : MonoBehaviour
         isAttacking = true;
         PlayAnimation(burstAttackAnim);
 
-        for (int i = 0; i < 6; i++)
+        for (int i = 0; i < 10; i++)
         {
             if (player != null && stats.isAlive)
             {
@@ -219,7 +219,7 @@ public class EnemyStateMachineBoss : MonoBehaviour
             yield return new WaitForSeconds(0.25f);
         }
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.4f);
         isAttacking = false;
         PlayAnimation("BossIdle");
         ChangeState(EnemyState.Idle);
@@ -230,7 +230,7 @@ public class EnemyStateMachineBoss : MonoBehaviour
         isAttacking = true;
         PlayAnimation(burstAttackAnim);
 
-        for (int i = 0; i < 8; i++)
+        for (int i = 0; i < 10; i++)
         {
             if (player != null && stats.isAlive)
             {
@@ -289,7 +289,7 @@ public class EnemyStateMachineBoss : MonoBehaviour
 
         AudioManager.instance.PlaySfx("UkukuTeleport");
         AudioManager.instance.PlayUI("Fall");
-        yield return transform.DOMoveY(transform.position.y - 15f, 0.5f).SetEase(Ease.InQuad).WaitForCompletion();
+        yield return transform.DOMoveY(transform.position.y - 17f, 0.5f).SetEase(Ease.InQuad).WaitForCompletion();
 
         PlayAnimation(jumpEndAnim);
         foreach (Collider2D col in GetComponentsInChildren<Collider2D>())
@@ -317,8 +317,8 @@ public class EnemyStateMachineBoss : MonoBehaviour
 
         if (attackParticles != null) attackParticles.Play();
 
-        float delay = attackCooldown / Mathf.Max(1, 10);
-        for (int i = 0; i < 10; i++)
+        float delay = attackCooldown / Mathf.Max(1, 15);
+        for (int i = 0; i < 15; i++)
         {
             if (player != null && stats.isAlive)
             {
@@ -343,9 +343,9 @@ public class EnemyStateMachineBoss : MonoBehaviour
         isAttacking = true;
         PlayAnimation(burstAttackAnim);
 
-        int totalBursts = 2;
-        int projectilesPerBurst = 3;
-        float timeBetweenShots = 0.3f;
+        int totalBursts = 3;
+        int projectilesPerBurst = 4;
+        float timeBetweenShots = 0.4f;
 
         for (int b = 0; b < totalBursts; b++)
         {
